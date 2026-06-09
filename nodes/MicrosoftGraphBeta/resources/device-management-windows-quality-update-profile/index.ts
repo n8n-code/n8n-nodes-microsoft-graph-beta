@@ -1,0 +1,942 @@
+import type { INodeProperties } from 'n8n-workflow';
+
+export const deviceManagementWindowsQualityUpdateProfileDescription: INodeProperties[] = [
+		{
+			"displayName": "Operation",
+			"name": "operation",
+			"type": "options",
+			"noDataExpression": true,
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					]
+				}
+			},
+			"options": [
+				{
+					"name": "Device Management List Windows Quality Update Profiles",
+					"value": "Device Management List Windows Quality Update Profiles",
+					"action": "Get windowsQualityUpdateProfiles from deviceManagement",
+					"description": "A collection of windows quality update profiles",
+					"routing": {
+						"request": {
+							"method": "GET",
+							"url": "=/deviceManagement/windowsQualityUpdateProfiles"
+						}
+					}
+				},
+				{
+					"name": "Device Management Create Windows Quality Update Profiles",
+					"value": "Device Management Create Windows Quality Update Profiles",
+					"action": "Create new navigation property to windowsQualityUpdateProfiles for deviceManagement",
+					"description": "Create new navigation property to windowsQualityUpdateProfiles for deviceManagement",
+					"routing": {
+						"request": {
+							"method": "POST",
+							"url": "=/deviceManagement/windowsQualityUpdateProfiles"
+						}
+					}
+				},
+				{
+					"name": "Device Management Delete Windows Quality Update Profiles",
+					"value": "Device Management Delete Windows Quality Update Profiles",
+					"action": "Delete navigation property windowsQualityUpdateProfiles for deviceManagement",
+					"description": "Delete navigation property windowsQualityUpdateProfiles for deviceManagement",
+					"routing": {
+						"request": {
+							"method": "DELETE",
+							"url": "=/deviceManagement/windowsQualityUpdateProfiles/{{$parameter[\"windowsQualityUpdateProfile-id\"]}}"
+						}
+					}
+				},
+				{
+					"name": "Device Management Get Windows Quality Update Profiles",
+					"value": "Device Management Get Windows Quality Update Profiles",
+					"action": "Get windowsQualityUpdateProfiles from deviceManagement",
+					"description": "A collection of windows quality update profiles",
+					"routing": {
+						"request": {
+							"method": "GET",
+							"url": "=/deviceManagement/windowsQualityUpdateProfiles/{{$parameter[\"windowsQualityUpdateProfile-id\"]}}"
+						}
+					}
+				},
+				{
+					"name": "Device Management Update Windows Quality Update Profiles",
+					"value": "Device Management Update Windows Quality Update Profiles",
+					"action": "Update the navigation property windowsQualityUpdateProfiles in deviceManagement",
+					"description": "Update the navigation property windowsQualityUpdateProfiles in deviceManagement",
+					"routing": {
+						"request": {
+							"method": "PATCH",
+							"url": "=/deviceManagement/windowsQualityUpdateProfiles/{{$parameter[\"windowsQualityUpdateProfile-id\"]}}"
+						}
+					}
+				},
+				{
+					"name": "Device Management Windows Quality Update Profiles List Assignments",
+					"value": "Device Management Windows Quality Update Profiles List Assignments",
+					"action": "Get assignments from deviceManagement",
+					"description": "The list of group assignments of the profile.",
+					"routing": {
+						"request": {
+							"method": "GET",
+							"url": "=/deviceManagement/windowsQualityUpdateProfiles/{{$parameter[\"windowsQualityUpdateProfile-id\"]}}/assignments"
+						}
+					}
+				},
+				{
+					"name": "Device Management Windows Quality Update Profiles Create Assignments",
+					"value": "Device Management Windows Quality Update Profiles Create Assignments",
+					"action": "Create new navigation property to assignments for deviceManagement",
+					"description": "Create new navigation property to assignments for deviceManagement",
+					"routing": {
+						"request": {
+							"method": "POST",
+							"url": "=/deviceManagement/windowsQualityUpdateProfiles/{{$parameter[\"windowsQualityUpdateProfile-id\"]}}/assignments"
+						}
+					}
+				},
+				{
+					"name": "Device Management Windows Quality Update Profiles Delete Assignments",
+					"value": "Device Management Windows Quality Update Profiles Delete Assignments",
+					"action": "Delete navigation property assignments for deviceManagement",
+					"description": "Delete navigation property assignments for deviceManagement",
+					"routing": {
+						"request": {
+							"method": "DELETE",
+							"url": "=/deviceManagement/windowsQualityUpdateProfiles/{{$parameter[\"windowsQualityUpdateProfile-id\"]}}/assignments/{{$parameter[\"windowsQualityUpdateProfileAssignment-id\"]}}"
+						}
+					}
+				},
+				{
+					"name": "Device Management Windows Quality Update Profiles Get Assignments",
+					"value": "Device Management Windows Quality Update Profiles Get Assignments",
+					"action": "Get assignments from deviceManagement",
+					"description": "The list of group assignments of the profile.",
+					"routing": {
+						"request": {
+							"method": "GET",
+							"url": "=/deviceManagement/windowsQualityUpdateProfiles/{{$parameter[\"windowsQualityUpdateProfile-id\"]}}/assignments/{{$parameter[\"windowsQualityUpdateProfileAssignment-id\"]}}"
+						}
+					}
+				},
+				{
+					"name": "Device Management Windows Quality Update Profiles Update Assignments",
+					"value": "Device Management Windows Quality Update Profiles Update Assignments",
+					"action": "Update the navigation property assignments in deviceManagement",
+					"description": "Update the navigation property assignments in deviceManagement",
+					"routing": {
+						"request": {
+							"method": "PATCH",
+							"url": "=/deviceManagement/windowsQualityUpdateProfiles/{{$parameter[\"windowsQualityUpdateProfile-id\"]}}/assignments/{{$parameter[\"windowsQualityUpdateProfileAssignment-id\"]}}"
+						}
+					}
+				}
+			],
+			"default": ""
+		},
+		{
+			"displayName": "GET /deviceManagement/windowsQualityUpdateProfiles",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management List Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Top",
+			"name": "%24top",
+			"description": "Show only the first n items",
+			"default": 50,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$top",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management List Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Skip",
+			"name": "%24skip",
+			"description": "Skip the first n items",
+			"default": 0,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$skip",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management List Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Search",
+			"name": "%24search",
+			"description": "Search items by search phrases",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$search",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management List Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Filter",
+			"name": "%24filter",
+			"description": "Filter items by property values",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$filter",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management List Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Count",
+			"name": "%24count",
+			"description": "Include count of items",
+			"default": true,
+			"type": "boolean",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$count",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management List Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Orderby",
+			"name": "%24orderby",
+			"description": "Order items by property values",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$orderby",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management List Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Select",
+			"name": "%24select",
+			"description": "Select properties to be returned",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$select",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management List Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Expand",
+			"name": "%24expand",
+			"description": "Expand related entities",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$expand",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management List Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "POST /deviceManagement/windowsQualityUpdateProfiles",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Create Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "POST /deviceManagement/windowsQualityUpdateProfiles<br/><br/>There's no body available for request, kindly use HTTP Request node to send body",
+			"name": "operation",
+			"type": "notice",
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Create Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "DELETE /deviceManagement/windowsQualityUpdateProfiles/{windowsQualityUpdateProfile-id}",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Delete Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "If Match",
+			"name": "If-Match",
+			"description": "ETag",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"request": {
+					"headers": {
+						"If-Match": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Delete Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "GET /deviceManagement/windowsQualityUpdateProfiles/{windowsQualityUpdateProfile-id}",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Get Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Select",
+			"name": "%24select",
+			"description": "Select properties to be returned",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$select",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Get Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Expand",
+			"name": "%24expand",
+			"description": "Expand related entities",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$expand",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Get Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "PATCH /deviceManagement/windowsQualityUpdateProfiles/{windowsQualityUpdateProfile-id}",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Update Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "PATCH /deviceManagement/windowsQualityUpdateProfiles/{windowsQualityUpdateProfile-id}<br/><br/>There's no body available for request, kindly use HTTP Request node to send body",
+			"name": "operation",
+			"type": "notice",
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Update Windows Quality Update Profiles"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "GET /deviceManagement/windowsQualityUpdateProfiles/{windowsQualityUpdateProfile-id}/assignments",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles List Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Top",
+			"name": "%24top",
+			"description": "Show only the first n items",
+			"default": 50,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$top",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles List Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Skip",
+			"name": "%24skip",
+			"description": "Skip the first n items",
+			"default": 0,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$skip",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles List Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Search",
+			"name": "%24search",
+			"description": "Search items by search phrases",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$search",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles List Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Filter",
+			"name": "%24filter",
+			"description": "Filter items by property values",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$filter",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles List Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Count",
+			"name": "%24count",
+			"description": "Include count of items",
+			"default": true,
+			"type": "boolean",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$count",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles List Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Orderby",
+			"name": "%24orderby",
+			"description": "Order items by property values",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$orderby",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles List Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Select",
+			"name": "%24select",
+			"description": "Select properties to be returned",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$select",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles List Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Expand",
+			"name": "%24expand",
+			"description": "Expand related entities",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$expand",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles List Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "POST /deviceManagement/windowsQualityUpdateProfiles/{windowsQualityUpdateProfile-id}/assignments",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles Create Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "POST /deviceManagement/windowsQualityUpdateProfiles/{windowsQualityUpdateProfile-id}/assignments<br/><br/>There's no body available for request, kindly use HTTP Request node to send body",
+			"name": "operation",
+			"type": "notice",
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles Create Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "DELETE /deviceManagement/windowsQualityUpdateProfiles/{windowsQualityUpdateProfile-id}/assignments/{windowsQualityUpdateProfileAssignment-id}",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles Delete Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "If Match",
+			"name": "If-Match",
+			"description": "ETag",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"request": {
+					"headers": {
+						"If-Match": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles Delete Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "GET /deviceManagement/windowsQualityUpdateProfiles/{windowsQualityUpdateProfile-id}/assignments/{windowsQualityUpdateProfileAssignment-id}",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles Get Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Select",
+			"name": "%24select",
+			"description": "Select properties to be returned",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$select",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles Get Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Expand",
+			"name": "%24expand",
+			"description": "Expand related entities",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$expand",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles Get Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "PATCH /deviceManagement/windowsQualityUpdateProfiles/{windowsQualityUpdateProfile-id}/assignments/{windowsQualityUpdateProfileAssignment-id}",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles Update Assignments"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "PATCH /deviceManagement/windowsQualityUpdateProfiles/{windowsQualityUpdateProfile-id}/assignments/{windowsQualityUpdateProfileAssignment-id}<br/><br/>There's no body available for request, kindly use HTTP Request node to send body",
+			"name": "operation",
+			"type": "notice",
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Device Management Windows Quality Update Profile"
+					],
+					"operation": [
+						"Device Management Windows Quality Update Profiles Update Assignments"
+					]
+				}
+			}
+		},
+];

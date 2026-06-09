@@ -1,0 +1,481 @@
+import type { INodeProperties } from 'n8n-workflow';
+
+export const usersMobileAppIntentAndStateDescription: INodeProperties[] = [
+		{
+			"displayName": "Operation",
+			"name": "operation",
+			"type": "options",
+			"noDataExpression": true,
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					]
+				}
+			},
+			"options": [
+				{
+					"name": "Users List Mobile App Intent And States",
+					"value": "Users List Mobile App Intent And States",
+					"action": "Get mobileAppIntentAndStates from users",
+					"description": "The list of troubleshooting events for this user.",
+					"routing": {
+						"request": {
+							"method": "GET",
+							"url": "=/users/{{$parameter[\"user-id\"]}}/mobileAppIntentAndStates"
+						}
+					}
+				},
+				{
+					"name": "Users Create Mobile App Intent And States",
+					"value": "Users Create Mobile App Intent And States",
+					"action": "Create new navigation property to mobileAppIntentAndStates for users",
+					"description": "Create new navigation property to mobileAppIntentAndStates for users",
+					"routing": {
+						"request": {
+							"method": "POST",
+							"url": "=/users/{{$parameter[\"user-id\"]}}/mobileAppIntentAndStates"
+						}
+					}
+				},
+				{
+					"name": "Users Delete Mobile App Intent And States",
+					"value": "Users Delete Mobile App Intent And States",
+					"action": "Delete navigation property mobileAppIntentAndStates for users",
+					"description": "Delete navigation property mobileAppIntentAndStates for users",
+					"routing": {
+						"request": {
+							"method": "DELETE",
+							"url": "=/users/{{$parameter[\"user-id\"]}}/mobileAppIntentAndStates/{{$parameter[\"mobileAppIntentAndState-id\"]}}"
+						}
+					}
+				},
+				{
+					"name": "Users Get Mobile App Intent And States",
+					"value": "Users Get Mobile App Intent And States",
+					"action": "Get mobileAppIntentAndStates from users",
+					"description": "The list of troubleshooting events for this user.",
+					"routing": {
+						"request": {
+							"method": "GET",
+							"url": "=/users/{{$parameter[\"user-id\"]}}/mobileAppIntentAndStates/{{$parameter[\"mobileAppIntentAndState-id\"]}}"
+						}
+					}
+				},
+				{
+					"name": "Users Update Mobile App Intent And States",
+					"value": "Users Update Mobile App Intent And States",
+					"action": "Update the navigation property mobileAppIntentAndStates in users",
+					"description": "Update the navigation property mobileAppIntentAndStates in users",
+					"routing": {
+						"request": {
+							"method": "PATCH",
+							"url": "=/users/{{$parameter[\"user-id\"]}}/mobileAppIntentAndStates/{{$parameter[\"mobileAppIntentAndState-id\"]}}"
+						}
+					}
+				}
+			],
+			"default": ""
+		},
+		{
+			"displayName": "GET /users/{user-id}/mobileAppIntentAndStates",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users List Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Top",
+			"name": "%24top",
+			"description": "Show only the first n items",
+			"default": 50,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$top",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users List Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Skip",
+			"name": "%24skip",
+			"description": "Skip the first n items",
+			"default": 0,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$skip",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users List Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Search",
+			"name": "%24search",
+			"description": "Search items by search phrases",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$search",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users List Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Filter",
+			"name": "%24filter",
+			"description": "Filter items by property values",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$filter",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users List Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Count",
+			"name": "%24count",
+			"description": "Include count of items",
+			"default": true,
+			"type": "boolean",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$count",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users List Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Orderby",
+			"name": "%24orderby",
+			"description": "Order items by property values",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$orderby",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users List Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Select",
+			"name": "%24select",
+			"description": "Select properties to be returned",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$select",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users List Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Expand",
+			"name": "%24expand",
+			"description": "Expand related entities",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$expand",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users List Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "POST /users/{user-id}/mobileAppIntentAndStates",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users Create Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "POST /users/{user-id}/mobileAppIntentAndStates<br/><br/>There's no body available for request, kindly use HTTP Request node to send body",
+			"name": "operation",
+			"type": "notice",
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users Create Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "DELETE /users/{user-id}/mobileAppIntentAndStates/{mobileAppIntentAndState-id}",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users Delete Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "If Match",
+			"name": "If-Match",
+			"description": "ETag",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"request": {
+					"headers": {
+						"If-Match": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users Delete Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "GET /users/{user-id}/mobileAppIntentAndStates/{mobileAppIntentAndState-id}",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users Get Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Select",
+			"name": "%24select",
+			"description": "Select properties to be returned",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$select",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users Get Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Expand",
+			"name": "%24expand",
+			"description": "Expand related entities",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$expand",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users Get Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "PATCH /users/{user-id}/mobileAppIntentAndStates/{mobileAppIntentAndState-id}",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users Update Mobile App Intent And States"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "PATCH /users/{user-id}/mobileAppIntentAndStates/{mobileAppIntentAndState-id}<br/><br/>There's no body available for request, kindly use HTTP Request node to send body",
+			"name": "operation",
+			"type": "notice",
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"Users Mobile App Intent And State"
+					],
+					"operation": [
+						"Users Update Mobile App Intent And States"
+					]
+				}
+			}
+		},
+];

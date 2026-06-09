@@ -1,0 +1,1028 @@
+import type { INodeProperties } from 'n8n-workflow';
+
+export const onPremisesPublishingProfilesOnPremisesAgentDescription: INodeProperties[] = [
+		{
+			"displayName": "Operation",
+			"name": "operation",
+			"type": "options",
+			"noDataExpression": true,
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					]
+				}
+			},
+			"options": [
+				{
+					"name": "On Premises Publishing Profiles List Agents",
+					"value": "On Premises Publishing Profiles List Agents",
+					"action": "List onPremisesAgents",
+					"description": "Retrieve a list of onPremisesAgent objects.",
+					"routing": {
+						"request": {
+							"method": "GET",
+							"url": "=/onPremisesPublishingProfiles/{{$parameter[\"onPremisesPublishingProfile-id\"]}}/agents"
+						}
+					}
+				},
+				{
+					"name": "On Premises Publishing Profiles Create Agents",
+					"value": "On Premises Publishing Profiles Create Agents",
+					"action": "Create new navigation property to agents for onPremisesPublishingProfiles",
+					"description": "Create new navigation property to agents for onPremisesPublishingProfiles",
+					"routing": {
+						"request": {
+							"method": "POST",
+							"url": "=/onPremisesPublishingProfiles/{{$parameter[\"onPremisesPublishingProfile-id\"]}}/agents"
+						}
+					}
+				},
+				{
+					"name": "On Premises Publishing Profiles Delete Agents",
+					"value": "On Premises Publishing Profiles Delete Agents",
+					"action": "Delete navigation property agents for onPremisesPublishingProfiles",
+					"description": "Delete navigation property agents for onPremisesPublishingProfiles",
+					"routing": {
+						"request": {
+							"method": "DELETE",
+							"url": "=/onPremisesPublishingProfiles/{{$parameter[\"onPremisesPublishingProfile-id\"]}}/agents/{{$parameter[\"onPremisesAgent-id\"]}}"
+						}
+					}
+				},
+				{
+					"name": "On Premises Publishing Profiles Get Agents",
+					"value": "On Premises Publishing Profiles Get Agents",
+					"action": "Get agents from onPremisesPublishingProfiles",
+					"description": "List of existing onPremisesAgent objects. Read-only. Nullable.",
+					"routing": {
+						"request": {
+							"method": "GET",
+							"url": "=/onPremisesPublishingProfiles/{{$parameter[\"onPremisesPublishingProfile-id\"]}}/agents/{{$parameter[\"onPremisesAgent-id\"]}}"
+						}
+					}
+				},
+				{
+					"name": "On Premises Publishing Profiles Update Agents",
+					"value": "On Premises Publishing Profiles Update Agents",
+					"action": "Update the navigation property agents in onPremisesPublishingProfiles",
+					"description": "Update the navigation property agents in onPremisesPublishingProfiles",
+					"routing": {
+						"request": {
+							"method": "PATCH",
+							"url": "=/onPremisesPublishingProfiles/{{$parameter[\"onPremisesPublishingProfile-id\"]}}/agents/{{$parameter[\"onPremisesAgent-id\"]}}"
+						}
+					}
+				},
+				{
+					"name": "On Premises Publishing Profiles Agents List Agent Groups",
+					"value": "On Premises Publishing Profiles Agents List Agent Groups",
+					"action": "Get agentGroups from onPremisesPublishingProfiles",
+					"description": "List of onPremisesAgentGroups that an onPremisesAgent is assigned to. Read-only. Nullable.",
+					"routing": {
+						"request": {
+							"method": "GET",
+							"url": "=/onPremisesPublishingProfiles/{{$parameter[\"onPremisesPublishingProfile-id\"]}}/agents/{{$parameter[\"onPremisesAgent-id\"]}}/agentGroups"
+						}
+					}
+				},
+				{
+					"name": "On Premises Publishing Profiles Agents List Ref Agent Groups",
+					"value": "On Premises Publishing Profiles Agents List Ref Agent Groups",
+					"action": "Get ref of agentGroups from onPremisesPublishingProfiles",
+					"description": "List of onPremisesAgentGroups that an onPremisesAgent is assigned to. Read-only. Nullable.",
+					"routing": {
+						"request": {
+							"method": "GET",
+							"url": "=/onPremisesPublishingProfiles/{{$parameter[\"onPremisesPublishingProfile-id\"]}}/agents/{{$parameter[\"onPremisesAgent-id\"]}}/agentGroups/$ref"
+						}
+					}
+				},
+				{
+					"name": "On Premises Publishing Profiles Agents Create Ref Agent Groups",
+					"value": "On Premises Publishing Profiles Agents Create Ref Agent Groups",
+					"action": "Create new navigation property ref to agentGroups for onPremisesPublishingProfiles",
+					"description": "Create new navigation property ref to agentGroups for onPremisesPublishingProfiles",
+					"routing": {
+						"request": {
+							"method": "POST",
+							"url": "=/onPremisesPublishingProfiles/{{$parameter[\"onPremisesPublishingProfile-id\"]}}/agents/{{$parameter[\"onPremisesAgent-id\"]}}/agentGroups/$ref"
+						}
+					}
+				},
+				{
+					"name": "On Premises Publishing Profiles Agents Delete Ref Agent Groups",
+					"value": "On Premises Publishing Profiles Agents Delete Ref Agent Groups",
+					"action": "Delete ref of navigation property agentGroups for onPremisesPublishingProfiles",
+					"description": "Delete ref of navigation property agentGroups for onPremisesPublishingProfiles",
+					"routing": {
+						"request": {
+							"method": "DELETE",
+							"url": "=/onPremisesPublishingProfiles/{{$parameter[\"onPremisesPublishingProfile-id\"]}}/agents/{{$parameter[\"onPremisesAgent-id\"]}}/agentGroups/{{$parameter[\"onPremisesAgentGroup-id\"]}}/$ref"
+						}
+					}
+				}
+			],
+			"default": ""
+		},
+		{
+			"displayName": "GET /onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles List Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Top",
+			"name": "%24top",
+			"description": "Show only the first n items",
+			"default": 50,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$top",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles List Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Skip",
+			"name": "%24skip",
+			"description": "Skip the first n items",
+			"default": 0,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$skip",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles List Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Search",
+			"name": "%24search",
+			"description": "Search items by search phrases",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$search",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles List Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Filter",
+			"name": "%24filter",
+			"description": "Filter items by property values",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$filter",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles List Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Count",
+			"name": "%24count",
+			"description": "Include count of items",
+			"default": true,
+			"type": "boolean",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$count",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles List Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Orderby",
+			"name": "%24orderby",
+			"description": "Order items by property values",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$orderby",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles List Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Select",
+			"name": "%24select",
+			"description": "Select properties to be returned",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$select",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles List Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Expand",
+			"name": "%24expand",
+			"description": "Expand related entities",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$expand",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles List Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "POST /onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Create Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "POST /onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents<br/><br/>There's no body available for request, kindly use HTTP Request node to send body",
+			"name": "operation",
+			"type": "notice",
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Create Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "DELETE /onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Delete Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "If Match",
+			"name": "If-Match",
+			"description": "ETag",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"request": {
+					"headers": {
+						"If-Match": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Delete Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "GET /onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Get Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Select",
+			"name": "%24select",
+			"description": "Select properties to be returned",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$select",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Get Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Expand",
+			"name": "%24expand",
+			"description": "Expand related entities",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$expand",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Get Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "PATCH /onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Update Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "PATCH /onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}<br/><br/>There's no body available for request, kindly use HTTP Request node to send body",
+			"name": "operation",
+			"type": "notice",
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Update Agents"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "GET /onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Top",
+			"name": "%24top",
+			"description": "Show only the first n items",
+			"default": 50,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$top",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Skip",
+			"name": "%24skip",
+			"description": "Skip the first n items",
+			"default": 0,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$skip",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Search",
+			"name": "%24search",
+			"description": "Search items by search phrases",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$search",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Filter",
+			"name": "%24filter",
+			"description": "Filter items by property values",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$filter",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Count",
+			"name": "%24count",
+			"description": "Include count of items",
+			"default": true,
+			"type": "boolean",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$count",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Orderby",
+			"name": "%24orderby",
+			"description": "Order items by property values",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$orderby",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Select",
+			"name": "%24select",
+			"description": "Select properties to be returned",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$select",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Expand",
+			"name": "%24expand",
+			"description": "Expand related entities",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$expand",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "GET /onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Ref Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Top",
+			"name": "%24top",
+			"description": "Show only the first n items",
+			"default": 50,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$top",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Ref Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Skip",
+			"name": "%24skip",
+			"description": "Skip the first n items",
+			"default": 0,
+			"type": "number",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$skip",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Ref Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Search",
+			"name": "%24search",
+			"description": "Search items by search phrases",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$search",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Ref Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Filter",
+			"name": "%24filter",
+			"description": "Filter items by property values",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$filter",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Ref Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Count",
+			"name": "%24count",
+			"description": "Include count of items",
+			"default": true,
+			"type": "boolean",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$count",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Ref Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Orderby",
+			"name": "%24orderby",
+			"description": "Order items by property values",
+			"default": "[\n  null\n]",
+			"type": "json",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "$orderby",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents List Ref Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "POST /onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/$ref",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents Create Ref Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Odata Id",
+			"name": "@odata-id",
+			"type": "string",
+			"default": "",
+			"routing": {
+				"send": {
+					"property": "@odata.id",
+					"propertyInDotNotation": false,
+					"type": "body",
+					"value": "={{ $value }}"
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents Create Ref Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "DELETE /onPremisesPublishingProfiles/{onPremisesPublishingProfile-id}/agents/{onPremisesAgent-id}/agentGroups/{onPremisesAgentGroup-id}/$ref",
+			"name": "operation",
+			"type": "notice",
+			"typeOptions": {
+				"theme": "info"
+			},
+			"default": "",
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents Delete Ref Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "If Match",
+			"name": "If-Match",
+			"description": "ETag",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"request": {
+					"headers": {
+						"If-Match": "={{ $value }}"
+					}
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents Delete Ref Agent Groups"
+					]
+				}
+			}
+		},
+		{
+			"displayName": "Id",
+			"name": "%40id",
+			"description": "Delete Uri",
+			"default": "",
+			"type": "string",
+			"routing": {
+				"send": {
+					"type": "query",
+					"property": "@id",
+					"value": "={{ $value }}",
+					"propertyInDotNotation": false
+				}
+			},
+			"displayOptions": {
+				"show": {
+					"resource": [
+						"On Premises Publishing Profiles On Premises Agent"
+					],
+					"operation": [
+						"On Premises Publishing Profiles Agents Delete Ref Agent Groups"
+					]
+				}
+			}
+		},
+];
