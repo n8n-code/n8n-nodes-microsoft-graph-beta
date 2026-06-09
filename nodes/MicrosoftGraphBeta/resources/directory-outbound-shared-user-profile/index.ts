@@ -425,7 +425,7 @@ export const directoryOutboundSharedUserProfileDescription: INodeProperties[] = 
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"type": "string",
 			"default": "",
@@ -629,7 +629,7 @@ export const directoryOutboundSharedUserProfileDescription: INodeProperties[] = 
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"type": "string",
 			"default": "",
@@ -916,7 +916,7 @@ export const directoryOutboundSharedUserProfileDescription: INodeProperties[] = 
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",
@@ -1096,7 +1096,7 @@ export const directoryOutboundSharedUserProfileDescription: INodeProperties[] = 
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",

@@ -188,7 +188,7 @@ export const tenantRelationshipsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Management Action Id",
+			"displayName": "Management Action ID",
 			"name": "managementActionId",
 			"type": "string",
 			"default": "",
@@ -212,7 +212,7 @@ export const tenantRelationshipsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Management Template Id",
+			"displayName": "Management Template ID",
 			"name": "managementTemplateId",
 			"type": "string",
 			"default": "",
@@ -284,7 +284,7 @@ export const tenantRelationshipsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Group Id",
+			"displayName": "Tenant Group ID",
 			"name": "tenantGroupId",
 			"type": "string",
 			"default": "",
@@ -308,7 +308,7 @@ export const tenantRelationshipsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",
@@ -423,7 +423,7 @@ export const tenantRelationshipsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Management Template Id",
+			"displayName": "Management Template ID",
 			"name": "managementTemplateId",
 			"type": "string",
 			"default": "",
@@ -447,7 +447,7 @@ export const tenantRelationshipsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Group Id",
+			"displayName": "Tenant Group ID",
 			"name": "tenantGroupId",
 			"type": "string",
 			"default": "",
@@ -471,7 +471,7 @@ export const tenantRelationshipsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",
@@ -514,7 +514,7 @@ export const tenantRelationshipsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Management Template Step Id",
+			"displayName": "Management Template Step ID",
 			"name": "managementTemplateStepId",
 			"type": "string",
 			"default": "",
@@ -562,7 +562,7 @@ export const tenantRelationshipsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",
@@ -605,7 +605,7 @@ export const tenantRelationshipsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",

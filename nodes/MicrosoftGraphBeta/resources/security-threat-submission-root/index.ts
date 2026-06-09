@@ -231,8 +231,8 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Security Threat Submission List Url Threats",
-					"value": "Security Threat Submission List Url Threats",
+					"name": "Security Threat Submission List URL Threats",
+					"value": "Security Threat Submission List URL Threats",
 					"action": "List urlThreatSubmissions",
 					"description": "Get a list of the urlThreatSubmission objects and their properties.",
 					"routing": {
@@ -243,8 +243,8 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Security Threat Submission Create Url Threats",
-					"value": "Security Threat Submission Create Url Threats",
+					"name": "Security Threat Submission Create URL Threats",
+					"value": "Security Threat Submission Create URL Threats",
 					"action": "Create urlThreatSubmission",
 					"description": "Create a new urlThreatSubmission object.",
 					"routing": {
@@ -255,8 +255,8 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Security Threat Submission Delete Url Threats",
-					"value": "Security Threat Submission Delete Url Threats",
+					"name": "Security Threat Submission Delete URL Threats",
+					"value": "Security Threat Submission Delete URL Threats",
 					"action": "Delete navigation property urlThreats for security",
 					"description": "Delete navigation property urlThreats for security",
 					"routing": {
@@ -267,8 +267,8 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Security Threat Submission Get Url Threats",
-					"value": "Security Threat Submission Get Url Threats",
+					"name": "Security Threat Submission Get URL Threats",
+					"value": "Security Threat Submission Get URL Threats",
 					"action": "Get urlThreats from security",
 					"description": "Get urlThreats from security",
 					"routing": {
@@ -279,8 +279,8 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Security Threat Submission Update Url Threats",
-					"value": "Security Threat Submission Update Url Threats",
+					"name": "Security Threat Submission Update URL Threats",
+					"value": "Security Threat Submission Update URL Threats",
 					"action": "Update the navigation property urlThreats in security",
 					"description": "Update the navigation property urlThreats in security",
 					"routing": {
@@ -1657,7 +1657,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission List Url Threats"
+						"Security Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -1682,7 +1682,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission List Url Threats"
+						"Security Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -1707,7 +1707,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission List Url Threats"
+						"Security Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -1732,7 +1732,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission List Url Threats"
+						"Security Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -1757,7 +1757,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission List Url Threats"
+						"Security Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -1782,7 +1782,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission List Url Threats"
+						"Security Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -1807,7 +1807,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission List Url Threats"
+						"Security Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -1832,7 +1832,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission List Url Threats"
+						"Security Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -1857,7 +1857,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission List Url Threats"
+						"Security Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -1876,7 +1876,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission Create Url Threats"
+						"Security Threat Submission Create URL Threats"
 					]
 				}
 			}
@@ -1892,7 +1892,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission Create Url Threats"
+						"Security Threat Submission Create URL Threats"
 					]
 				}
 			}
@@ -1911,7 +1911,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission Delete Url Threats"
+						"Security Threat Submission Delete URL Threats"
 					]
 				}
 			}
@@ -1935,7 +1935,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission Delete Url Threats"
+						"Security Threat Submission Delete URL Threats"
 					]
 				}
 			}
@@ -1954,7 +1954,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission Get Url Threats"
+						"Security Threat Submission Get URL Threats"
 					]
 				}
 			}
@@ -1979,7 +1979,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission Get Url Threats"
+						"Security Threat Submission Get URL Threats"
 					]
 				}
 			}
@@ -2004,7 +2004,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission Get Url Threats"
+						"Security Threat Submission Get URL Threats"
 					]
 				}
 			}
@@ -2023,7 +2023,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission Update Url Threats"
+						"Security Threat Submission Update URL Threats"
 					]
 				}
 			}
@@ -2039,7 +2039,7 @@ export const securityThreatSubmissionRootDescription: INodeProperties[] = [
 						"Security Threat Submission Root"
 					],
 					"operation": [
-						"Security Threat Submission Update Url Threats"
+						"Security Threat Submission Update URL Threats"
 					]
 				}
 			}

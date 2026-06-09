@@ -97,7 +97,7 @@ export const printActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Connector Id",
+			"displayName": "Connector ID",
 			"name": "connectorId",
 			"type": "string",
 			"default": "",
@@ -217,7 +217,7 @@ export const printActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Physical Device Id",
+			"displayName": "Physical Device ID",
 			"name": "physicalDeviceId",
 			"type": "string",
 			"default": "",

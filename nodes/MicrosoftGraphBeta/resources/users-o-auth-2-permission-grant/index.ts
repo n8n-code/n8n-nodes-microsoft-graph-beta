@@ -15,8 +15,8 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Users List Oauth 2 Permission Grants",
-					"value": "Users List Oauth 2 Permission Grants",
+					"name": "Users List OAuth 2 Permission Grants",
+					"value": "Users List OAuth 2 Permission Grants",
 					"action": "List oauth2PermissionGrants",
 					"description": "Retrieve a list of oAuth2PermissionGrant entities, which represent delegated permissions granted to enable a client application to access an API on behalf of the user.",
 					"routing": {
@@ -27,8 +27,8 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Users Get Oauth 2 Permission Grants",
-					"value": "Users Get Oauth 2 Permission Grants",
+					"name": "Users Get OAuth 2 Permission Grants",
+					"value": "Users Get OAuth 2 Permission Grants",
 					"action": "Get oauth2PermissionGrants from users",
 					"description": "Get oauth2PermissionGrants from users",
 					"routing": {
@@ -55,7 +55,7 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Users O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Users List Oauth 2 Permission Grants"
+						"Users List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -80,7 +80,7 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Users O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Users List Oauth 2 Permission Grants"
+						"Users List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -105,7 +105,7 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Users O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Users List Oauth 2 Permission Grants"
+						"Users List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -130,7 +130,7 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Users O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Users List Oauth 2 Permission Grants"
+						"Users List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -155,7 +155,7 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Users O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Users List Oauth 2 Permission Grants"
+						"Users List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -180,7 +180,7 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Users O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Users List Oauth 2 Permission Grants"
+						"Users List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -205,7 +205,7 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Users O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Users List Oauth 2 Permission Grants"
+						"Users List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -230,7 +230,7 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Users O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Users List Oauth 2 Permission Grants"
+						"Users List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -255,7 +255,7 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Users O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Users List Oauth 2 Permission Grants"
+						"Users List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -274,7 +274,7 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Users O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Users Get Oauth 2 Permission Grants"
+						"Users Get OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -299,7 +299,7 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Users O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Users Get Oauth 2 Permission Grants"
+						"Users Get OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -324,7 +324,7 @@ export const usersOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Users O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Users Get Oauth 2 Permission Grants"
+						"Users Get OAuth 2 Permission Grants"
 					]
 				}
 			}

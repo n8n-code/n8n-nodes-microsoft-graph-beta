@@ -2029,7 +2029,7 @@ export const deviceManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Policy Id",
+			"displayName": "Policy ID",
 			"name": "policyId",
 			"required": true,
 			"description": "Usage: policyId='{policyId}'",
@@ -2429,7 +2429,7 @@ export const deviceManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Secret Reference Value Id",
+			"displayName": "Secret Reference Value ID",
 			"name": "secretReferenceValueId",
 			"required": true,
 			"description": "Usage: secretReferenceValueId='{secretReferenceValueId}'",
@@ -2523,7 +2523,7 @@ export const deviceManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Template Id",
+			"displayName": "Template ID",
 			"name": "templateId",
 			"required": true,
 			"description": "Usage: templateId='{templateId}'",
@@ -4490,7 +4490,7 @@ export const deviceManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Template Id",
+			"displayName": "Template ID",
 			"name": "templateId",
 			"required": true,
 			"description": "Usage: templateId='{templateId}'",
@@ -4652,7 +4652,7 @@ export const deviceManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Template Id",
+			"displayName": "Template ID",
 			"name": "templateId",
 			"required": true,
 			"description": "Usage: templateId='{templateId}'",
@@ -6305,7 +6305,7 @@ export const deviceManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Cloud Pc Id",
+			"displayName": "Cloud Pc ID",
 			"name": "cloudPcId",
 			"required": true,
 			"description": "Usage: cloudPcId='{cloudPcId}'",
@@ -6342,7 +6342,7 @@ export const deviceManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Cloud Pc Id",
+			"displayName": "Cloud Pc ID",
 			"name": "cloudPcId",
 			"required": true,
 			"description": "Usage: cloudPcId='{cloudPcId}'",
@@ -6379,7 +6379,7 @@ export const deviceManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Subscription Id",
+			"displayName": "Subscription ID",
 			"name": "subscriptionId",
 			"required": true,
 			"description": "Usage: subscriptionId='{subscriptionId}'",

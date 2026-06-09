@@ -73,7 +73,7 @@ export const groupLifecyclePoliciesActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -116,7 +116,7 @@ export const groupLifecyclePoliciesActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -159,7 +159,7 @@ export const groupLifecyclePoliciesActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",

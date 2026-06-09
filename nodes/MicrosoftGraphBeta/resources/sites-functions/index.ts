@@ -1763,7 +1763,7 @@ export const sitesFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "List Id",
+			"displayName": "List ID",
 			"name": "listId",
 			"required": true,
 			"description": "Usage: listId='{listId}'",

@@ -428,7 +428,7 @@ export const servicePrincipalsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"type": "string",
 			"default": "",
@@ -543,7 +543,7 @@ export const servicePrincipalsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",
@@ -763,7 +763,7 @@ export const servicePrincipalsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -806,7 +806,7 @@ export const servicePrincipalsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -935,7 +935,7 @@ export const servicePrincipalsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -1021,7 +1021,7 @@ export const servicePrincipalsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -1112,7 +1112,7 @@ export const servicePrincipalsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Template Id",
+			"displayName": "Template ID",
 			"name": "templateId",
 			"type": "string",
 			"default": "",
@@ -1370,7 +1370,7 @@ export const servicePrincipalsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Template Id",
+			"displayName": "Template ID",
 			"name": "templateId",
 			"type": "string",
 			"default": "",

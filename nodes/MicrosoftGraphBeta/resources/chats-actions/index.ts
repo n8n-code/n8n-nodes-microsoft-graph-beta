@@ -623,7 +623,7 @@ export const chatsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",
@@ -692,7 +692,7 @@ export const chatsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",
@@ -785,7 +785,7 @@ export const chatsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",
@@ -878,7 +878,7 @@ export const chatsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"type": "number",
 			"default": 0,
@@ -1017,7 +1017,7 @@ export const chatsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",
@@ -1177,7 +1177,7 @@ export const chatsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"type": "string",
 			"default": "",
@@ -1292,7 +1292,7 @@ export const chatsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",

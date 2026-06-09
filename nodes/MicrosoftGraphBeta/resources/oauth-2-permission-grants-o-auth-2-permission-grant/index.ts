@@ -9,14 +9,14 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					]
 				}
 			},
 			"options": [
 				{
-					"name": "Oauth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant",
-					"value": "Oauth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant",
+					"name": "OAuth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant",
+					"value": "OAuth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant",
 					"action": "List oauth2PermissionGrants (delegated permission grants)",
 					"description": "Retrieve a list of oAuth2PermissionGrant objects, representing delegated permissions which have been granted for client applications to access APIs on behalf of signed-in users.",
 					"routing": {
@@ -27,8 +27,8 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 					}
 				},
 				{
-					"name": "Oauth 2 Permission Grants O Auth 2 Permission Grant Create O Auth 2 Permission Grant",
-					"value": "Oauth 2 Permission Grants O Auth 2 Permission Grant Create O Auth 2 Permission Grant",
+					"name": "OAuth 2 Permission Grants O Auth 2 Permission Grant Create O Auth 2 Permission Grant",
+					"value": "OAuth 2 Permission Grants O Auth 2 Permission Grant Create O Auth 2 Permission Grant",
 					"action": "Create oAuth2PermissionGrant (a delegated permission grant)",
 					"description": "Create a delegated permission grant, represented by an oAuth2PermissionGrant object. A delegated permission grant authorizes a client service principal (representing a client application) to access a resource service principal (representing an API), on behalf of a signed-in user, for the level of access limited by the delegated permissions which were granted.",
 					"routing": {
@@ -39,8 +39,8 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 					}
 				},
 				{
-					"name": "Oauth 2 Permission Grants O Auth 2 Permission Grant Delete O Auth 2 Permission Grant",
-					"value": "Oauth 2 Permission Grants O Auth 2 Permission Grant Delete O Auth 2 Permission Grant",
+					"name": "OAuth 2 Permission Grants O Auth 2 Permission Grant Delete O Auth 2 Permission Grant",
+					"value": "OAuth 2 Permission Grants O Auth 2 Permission Grant Delete O Auth 2 Permission Grant",
 					"action": "Delete oAuth2PermissionGrant (a delegated permission grant)",
 					"description": "Delete an oAuth2PermissionGrant, representing a delegated permission grant. When a delegated permission grant is deleted, the access it granted is revoked. Existing access tokens will continue to be valid for their lifetime, but new access tokens will not be granted for the delegated permissions identified in the deleted **oAuth2PermissionGrant**.",
 					"routing": {
@@ -51,8 +51,8 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 					}
 				},
 				{
-					"name": "Oauth 2 Permission Grants O Auth 2 Permission Grant Get O Auth 2 Permission Grant",
-					"value": "Oauth 2 Permission Grants O Auth 2 Permission Grant Get O Auth 2 Permission Grant",
+					"name": "OAuth 2 Permission Grants O Auth 2 Permission Grant Get O Auth 2 Permission Grant",
+					"value": "OAuth 2 Permission Grants O Auth 2 Permission Grant Get O Auth 2 Permission Grant",
 					"action": "Get oAuth2PermissionGrant (a delegated permission grant)",
 					"description": "Retrieve the properties of a single delegated permission grant represented by an oAuth2PermissionGrant object. An **oAuth2PermissionGrant** represents delegated permissions which have been granted for a client application to access an API on behalf of a signed-in user.",
 					"routing": {
@@ -63,8 +63,8 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 					}
 				},
 				{
-					"name": "Oauth 2 Permission Grants O Auth 2 Permission Grant Update O Auth 2 Permission Grant",
-					"value": "Oauth 2 Permission Grants O Auth 2 Permission Grant Update O Auth 2 Permission Grant",
+					"name": "OAuth 2 Permission Grants O Auth 2 Permission Grant Update O Auth 2 Permission Grant",
+					"value": "OAuth 2 Permission Grants O Auth 2 Permission Grant Update O Auth 2 Permission Grant",
 					"action": "Update oAuth2PermissionGrant (a delegated permission grant)",
 					"description": "Update the properties of oAuth2PermissionGrant object, representing a delegated permission grant. An **oAuth2PermissionGrant** can be updated to change which delegated permissions are granted, by adding or removing items from the list in **scopes**.",
 					"routing": {
@@ -88,10 +88,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -113,10 +113,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -138,10 +138,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -163,10 +163,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -188,10 +188,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -213,10 +213,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -238,10 +238,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -263,10 +263,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -288,10 +288,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant List O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -307,10 +307,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant Create O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant Create O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -323,10 +323,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant Create O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant Create O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -342,10 +342,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant Delete O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant Delete O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -366,10 +366,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant Delete O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant Delete O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -385,10 +385,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant Get O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant Get O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -410,10 +410,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant Get O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant Get O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -435,10 +435,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant Get O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant Get O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -454,10 +454,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant Update O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant Update O Auth 2 Permission Grant"
 					]
 				}
 			}
@@ -470,10 +470,10 @@ export const oauth2PermissionGrantsOAuth2PermissionGrantDescription: INodeProper
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants O Auth 2 Permission Grant Update O Auth 2 Permission Grant"
+						"OAuth 2 Permission Grants O Auth 2 Permission Grant Update O Auth 2 Permission Grant"
 					]
 				}
 			}

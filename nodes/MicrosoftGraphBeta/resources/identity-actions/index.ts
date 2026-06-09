@@ -15,8 +15,8 @@ export const identityActionsDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Identity Api Connectors Identity Api Connector Upload Client Certificate",
-					"value": "Identity Api Connectors Identity Api Connector Upload Client Certificate",
+					"name": "Identity API Connectors Identity API Connector Upload Client Certificate",
+					"value": "Identity API Connectors Identity API Connector Upload Client Certificate",
 					"action": "Invoke action uploadClientCertificate",
 					"description": "Upload a PKCS 12 format key (.pfx) to an API connector's authentication configuration. The input is a base-64 encoded value of the PKCS 12 certificate contents. This method returns an apiConnector.",
 					"routing": {
@@ -103,7 +103,7 @@ export const identityActionsDescription: INodeProperties[] = [
 						"Identity Actions"
 					],
 					"operation": [
-						"Identity Api Connectors Identity Api Connector Upload Client Certificate"
+						"Identity API Connectors Identity API Connector Upload Client Certificate"
 					]
 				}
 			}
@@ -127,7 +127,7 @@ export const identityActionsDescription: INodeProperties[] = [
 						"Identity Actions"
 					],
 					"operation": [
-						"Identity Api Connectors Identity Api Connector Upload Client Certificate"
+						"Identity API Connectors Identity API Connector Upload Client Certificate"
 					]
 				}
 			}
@@ -151,7 +151,7 @@ export const identityActionsDescription: INodeProperties[] = [
 						"Identity Actions"
 					],
 					"operation": [
-						"Identity Api Connectors Identity Api Connector Upload Client Certificate"
+						"Identity API Connectors Identity API Connector Upload Client Certificate"
 					]
 				}
 			}

@@ -1276,7 +1276,7 @@ export const teamworkActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"type": "number",
 			"default": 0,
@@ -1348,7 +1348,7 @@ export const teamworkActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Teams App Id",
+			"displayName": "Teams App ID",
 			"name": "teamsAppId",
 			"type": "string",
 			"default": "",
@@ -2138,7 +2138,7 @@ export const teamworkActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"type": "number",
 			"default": 0,
@@ -2387,7 +2387,7 @@ export const teamworkActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"type": "string",
 			"default": "",
@@ -2502,7 +2502,7 @@ export const teamworkActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",
@@ -3223,7 +3223,7 @@ export const teamworkActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",

@@ -900,7 +900,7 @@ export const policiesCrossTenantAccessPolicyDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",
@@ -1301,7 +1301,7 @@ export const policiesCrossTenantAccessPolicyDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",

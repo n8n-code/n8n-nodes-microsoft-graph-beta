@@ -820,14 +820,14 @@ import { defaultDescription } from './resources/default';
 
 export class MicrosoftGraphBeta implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'microsoft-graph-beta',
+		displayName: 'Microsoft Graph Beta',
 		name: 'N8nDevMicrosoftGraphBeta',
 		icon: { light: 'file:./microsoft-graph-beta.png', dark: 'file:./microsoft-graph-beta.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'This OData service is located at https://graph.microsoft.com/beta',
-		defaults: { name: 'microsoft-graph-beta' },
+		defaults: { name: 'Microsoft Graph Beta' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
@@ -2122,8 +2122,8 @@ export class MicrosoftGraphBeta implements INodeType {
 					"description": ""
 				},
 				{
-					"name": "Device Management User Experience Analytics App Health App Performance By App Version Device Id",
-					"value": "Device Management User Experience Analytics App Health App Performance By App Version Device Id",
+					"name": "Device Management User Experience Analytics App Health App Performance By App Version Device ID",
+					"value": "Device Management User Experience Analytics App Health App Performance By App Version Device ID",
 					"description": ""
 				},
 				{
@@ -2532,8 +2532,8 @@ export class MicrosoftGraphBeta implements INodeType {
 					"description": ""
 				},
 				{
-					"name": "Domain Dns Records Domain Dns Record",
-					"value": "Domain Dns Records Domain Dns Record",
+					"name": "Domain DNS Records Domain DNS Record",
+					"value": "Domain DNS Records Domain DNS Record",
 					"description": ""
 				},
 				{
@@ -2557,8 +2557,8 @@ export class MicrosoftGraphBeta implements INodeType {
 					"description": ""
 				},
 				{
-					"name": "Domains Domain Dns Record",
-					"value": "Domains Domain Dns Record",
+					"name": "Domains Domain DNS Record",
+					"value": "Domains Domain DNS Record",
 					"description": ""
 				},
 				{
@@ -2917,8 +2917,8 @@ export class MicrosoftGraphBeta implements INodeType {
 					"description": ""
 				},
 				{
-					"name": "Identity Identity Api Connector",
-					"value": "Identity Identity Api Connector",
+					"name": "Identity Identity API Connector",
+					"value": "Identity Identity API Connector",
 					"description": ""
 				},
 				{
@@ -3427,13 +3427,13 @@ export class MicrosoftGraphBeta implements INodeType {
 					"description": ""
 				},
 				{
-					"name": "Oauth 2 Permission Grants O Auth 2 Permission Grant",
-					"value": "Oauth 2 Permission Grants O Auth 2 Permission Grant",
+					"name": "OAuth 2 Permission Grants O Auth 2 Permission Grant",
+					"value": "OAuth 2 Permission Grants O Auth 2 Permission Grant",
 					"description": ""
 				},
 				{
-					"name": "Oauth 2 Permission Grants Functions",
-					"value": "Oauth 2 Permission Grants Functions",
+					"name": "OAuth 2 Permission Grants Functions",
+					"value": "OAuth 2 Permission Grants Functions",
 					"description": ""
 				},
 				{
@@ -4632,8 +4632,8 @@ export class MicrosoftGraphBeta implements INodeType {
 					"description": ""
 				},
 				{
-					"name": "Threat Submission Url Threat Submission",
-					"value": "Threat Submission Url Threat Submission",
+					"name": "Threat Submission URL Threat Submission",
+					"value": "Threat Submission URL Threat Submission",
 					"description": ""
 				},
 				{

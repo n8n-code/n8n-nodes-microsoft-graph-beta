@@ -999,8 +999,8 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Tenant Relationships Managed Tenants Managed Tenant Alerts List Api Notifications",
-					"value": "Tenant Relationships Managed Tenants Managed Tenant Alerts List Api Notifications",
+					"name": "Tenant Relationships Managed Tenants Managed Tenant Alerts List API Notifications",
+					"value": "Tenant Relationships Managed Tenants Managed Tenant Alerts List API Notifications",
 					"action": "Get apiNotifications from tenantRelationships",
 					"description": "Get apiNotifications from tenantRelationships",
 					"routing": {
@@ -1011,8 +1011,8 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Tenant Relationships Managed Tenants Managed Tenant Alerts Get Api Notifications",
-					"value": "Tenant Relationships Managed Tenants Managed Tenant Alerts Get Api Notifications",
+					"name": "Tenant Relationships Managed Tenants Managed Tenant Alerts Get API Notifications",
+					"value": "Tenant Relationships Managed Tenants Managed Tenant Alerts Get API Notifications",
 					"action": "Get apiNotifications from tenantRelationships",
 					"description": "Get apiNotifications from tenantRelationships",
 					"routing": {
@@ -1047,8 +1047,8 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Tenant Relationships Managed Tenants List Managed Tenant Api Notifications",
-					"value": "Tenant Relationships Managed Tenants List Managed Tenant Api Notifications",
+					"name": "Tenant Relationships Managed Tenants List Managed Tenant API Notifications",
+					"value": "Tenant Relationships Managed Tenants List Managed Tenant API Notifications",
 					"action": "Get managedTenantApiNotifications from tenantRelationships",
 					"description": "Get managedTenantApiNotifications from tenantRelationships",
 					"routing": {
@@ -1059,8 +1059,8 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Tenant Relationships Managed Tenants Create Managed Tenant Api Notifications",
-					"value": "Tenant Relationships Managed Tenants Create Managed Tenant Api Notifications",
+					"name": "Tenant Relationships Managed Tenants Create Managed Tenant API Notifications",
+					"value": "Tenant Relationships Managed Tenants Create Managed Tenant API Notifications",
 					"action": "Create new navigation property to managedTenantApiNotifications for tenantRelationships",
 					"description": "Create new navigation property to managedTenantApiNotifications for tenantRelationships",
 					"routing": {
@@ -1071,8 +1071,8 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Tenant Relationships Managed Tenants Delete Managed Tenant Api Notifications",
-					"value": "Tenant Relationships Managed Tenants Delete Managed Tenant Api Notifications",
+					"name": "Tenant Relationships Managed Tenants Delete Managed Tenant API Notifications",
+					"value": "Tenant Relationships Managed Tenants Delete Managed Tenant API Notifications",
 					"action": "Delete navigation property managedTenantApiNotifications for tenantRelationships",
 					"description": "Delete navigation property managedTenantApiNotifications for tenantRelationships",
 					"routing": {
@@ -1083,8 +1083,8 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Tenant Relationships Managed Tenants Get Managed Tenant Api Notifications",
-					"value": "Tenant Relationships Managed Tenants Get Managed Tenant Api Notifications",
+					"name": "Tenant Relationships Managed Tenants Get Managed Tenant API Notifications",
+					"value": "Tenant Relationships Managed Tenants Get Managed Tenant API Notifications",
 					"action": "Get managedTenantApiNotifications from tenantRelationships",
 					"description": "Get managedTenantApiNotifications from tenantRelationships",
 					"routing": {
@@ -1095,8 +1095,8 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Tenant Relationships Managed Tenants Update Managed Tenant Api Notifications",
-					"value": "Tenant Relationships Managed Tenants Update Managed Tenant Api Notifications",
+					"name": "Tenant Relationships Managed Tenants Update Managed Tenant API Notifications",
+					"value": "Tenant Relationships Managed Tenants Update Managed Tenant API Notifications",
 					"action": "Update the navigation property managedTenantApiNotifications in tenantRelationships",
 					"description": "Update the navigation property managedTenantApiNotifications in tenantRelationships",
 					"routing": {
@@ -1107,8 +1107,8 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Tenant Relationships Managed Tenants Managed Tenant Api Notifications Get Alert",
-					"value": "Tenant Relationships Managed Tenants Managed Tenant Api Notifications Get Alert",
+					"name": "Tenant Relationships Managed Tenants Managed Tenant API Notifications Get Alert",
+					"value": "Tenant Relationships Managed Tenants Managed Tenant API Notifications Get Alert",
 					"action": "Get alert from tenantRelationships",
 					"description": "Get alert from tenantRelationships",
 					"routing": {
@@ -9335,7 +9335,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Alerts List Api Notifications"
+						"Tenant Relationships Managed Tenants Managed Tenant Alerts List API Notifications"
 					]
 				}
 			}
@@ -9360,7 +9360,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Alerts List Api Notifications"
+						"Tenant Relationships Managed Tenants Managed Tenant Alerts List API Notifications"
 					]
 				}
 			}
@@ -9385,7 +9385,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Alerts List Api Notifications"
+						"Tenant Relationships Managed Tenants Managed Tenant Alerts List API Notifications"
 					]
 				}
 			}
@@ -9410,7 +9410,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Alerts List Api Notifications"
+						"Tenant Relationships Managed Tenants Managed Tenant Alerts List API Notifications"
 					]
 				}
 			}
@@ -9435,7 +9435,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Alerts List Api Notifications"
+						"Tenant Relationships Managed Tenants Managed Tenant Alerts List API Notifications"
 					]
 				}
 			}
@@ -9460,7 +9460,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Alerts List Api Notifications"
+						"Tenant Relationships Managed Tenants Managed Tenant Alerts List API Notifications"
 					]
 				}
 			}
@@ -9485,7 +9485,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Alerts List Api Notifications"
+						"Tenant Relationships Managed Tenants Managed Tenant Alerts List API Notifications"
 					]
 				}
 			}
@@ -9510,7 +9510,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Alerts List Api Notifications"
+						"Tenant Relationships Managed Tenants Managed Tenant Alerts List API Notifications"
 					]
 				}
 			}
@@ -9535,7 +9535,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Alerts List Api Notifications"
+						"Tenant Relationships Managed Tenants Managed Tenant Alerts List API Notifications"
 					]
 				}
 			}
@@ -9554,7 +9554,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Alerts Get Api Notifications"
+						"Tenant Relationships Managed Tenants Managed Tenant Alerts Get API Notifications"
 					]
 				}
 			}
@@ -9579,7 +9579,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Alerts Get Api Notifications"
+						"Tenant Relationships Managed Tenants Managed Tenant Alerts Get API Notifications"
 					]
 				}
 			}
@@ -9604,7 +9604,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Alerts Get Api Notifications"
+						"Tenant Relationships Managed Tenants Managed Tenant Alerts Get API Notifications"
 					]
 				}
 			}
@@ -9911,7 +9911,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants List Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants List Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -9936,7 +9936,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants List Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants List Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -9961,7 +9961,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants List Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants List Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -9986,7 +9986,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants List Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants List Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10011,7 +10011,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants List Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants List Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10036,7 +10036,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants List Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants List Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10061,7 +10061,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants List Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants List Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10086,7 +10086,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants List Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants List Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10111,7 +10111,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants List Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants List Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10130,7 +10130,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Create Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants Create Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10146,7 +10146,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Create Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants Create Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10165,7 +10165,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Delete Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants Delete Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10189,7 +10189,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Delete Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants Delete Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10208,7 +10208,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Get Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants Get Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10233,7 +10233,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Get Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants Get Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10258,7 +10258,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Get Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants Get Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10277,7 +10277,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Update Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants Update Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10293,7 +10293,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Update Managed Tenant Api Notifications"
+						"Tenant Relationships Managed Tenants Update Managed Tenant API Notifications"
 					]
 				}
 			}
@@ -10312,7 +10312,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Api Notifications Get Alert"
+						"Tenant Relationships Managed Tenants Managed Tenant API Notifications Get Alert"
 					]
 				}
 			}
@@ -10337,7 +10337,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Api Notifications Get Alert"
+						"Tenant Relationships Managed Tenants Managed Tenant API Notifications Get Alert"
 					]
 				}
 			}
@@ -10362,7 +10362,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 						"Tenant Relationships Managed Tenant"
 					],
 					"operation": [
-						"Tenant Relationships Managed Tenants Managed Tenant Api Notifications Get Alert"
+						"Tenant Relationships Managed Tenants Managed Tenant API Notifications Get Alert"
 					]
 				}
 			}
@@ -17034,7 +17034,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",
@@ -17240,7 +17240,7 @@ export const tenantRelationshipsManagedTenantDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"type": "string",
 			"default": "",

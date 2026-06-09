@@ -267,8 +267,8 @@ export const communicationsActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Communications Get Presences By User Id",
-					"value": "Communications Get Presences By User Id",
+					"name": "Communications Get Presences By User ID",
+					"value": "Communications Get Presences By User ID",
 					"action": "Invoke action getPresencesByUserId",
 					"description": "Get the presence information for multiple users.",
 					"routing": {
@@ -2104,7 +2104,7 @@ export const communicationsActionsDescription: INodeProperties[] = [
 						"Communications Actions"
 					],
 					"operation": [
-						"Communications Get Presences By User Id"
+						"Communications Get Presences By User ID"
 					]
 				}
 			}
@@ -2128,7 +2128,7 @@ export const communicationsActionsDescription: INodeProperties[] = [
 						"Communications Actions"
 					],
 					"operation": [
-						"Communications Get Presences By User Id"
+						"Communications Get Presences By User ID"
 					]
 				}
 			}
@@ -2201,7 +2201,7 @@ export const communicationsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "External Id",
+			"displayName": "External ID",
 			"name": "externalId",
 			"type": "string",
 			"default": "",
@@ -2316,7 +2316,7 @@ export const communicationsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -2450,7 +2450,7 @@ export const communicationsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",

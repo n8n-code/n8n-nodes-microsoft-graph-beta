@@ -63,8 +63,8 @@ export const securityAlertDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Security List Alerts V 2",
-					"value": "Security List Alerts V 2",
+					"name": "Security List Alerts v2",
+					"value": "Security List Alerts v2",
 					"action": "List alerts_v2",
 					"description": "Get a list of alert resources that have been created to track suspicious activities in an organization. This operation lets you filter and sort through alerts to create an informed cyber security response. It exposes a collection of alerts that were flagged in your network, within the time range you specified in your environment retention policy. The most recent alerts are displayed at the top of the list.",
 					"routing": {
@@ -75,8 +75,8 @@ export const securityAlertDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Security Create Alerts V 2",
-					"value": "Security Create Alerts V 2",
+					"name": "Security Create Alerts v2",
+					"value": "Security Create Alerts v2",
 					"action": "Create new navigation property to alerts_v2 for security",
 					"description": "Create new navigation property to alerts_v2 for security",
 					"routing": {
@@ -87,8 +87,8 @@ export const securityAlertDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Security Delete Alerts V 2",
-					"value": "Security Delete Alerts V 2",
+					"name": "Security Delete Alerts v2",
+					"value": "Security Delete Alerts v2",
 					"action": "Delete navigation property alerts_v2 for security",
 					"description": "Delete navigation property alerts_v2 for security",
 					"routing": {
@@ -99,8 +99,8 @@ export const securityAlertDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Security Get Alerts V 2",
-					"value": "Security Get Alerts V 2",
+					"name": "Security Get Alerts v2",
+					"value": "Security Get Alerts v2",
 					"action": "Get alerts_v2 from security",
 					"description": "A collection of alerts in Microsoft 365 Defender.",
 					"routing": {
@@ -111,8 +111,8 @@ export const securityAlertDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Security Update Alerts V 2",
-					"value": "Security Update Alerts V 2",
+					"name": "Security Update Alerts v2",
+					"value": "Security Update Alerts v2",
 					"action": "Update the navigation property alerts_v2 in security",
 					"description": "Update the navigation property alerts_v2 in security",
 					"routing": {
@@ -497,7 +497,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security List Alerts V 2"
+						"Security List Alerts v2"
 					]
 				}
 			}
@@ -522,7 +522,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security List Alerts V 2"
+						"Security List Alerts v2"
 					]
 				}
 			}
@@ -547,7 +547,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security List Alerts V 2"
+						"Security List Alerts v2"
 					]
 				}
 			}
@@ -572,7 +572,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security List Alerts V 2"
+						"Security List Alerts v2"
 					]
 				}
 			}
@@ -597,7 +597,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security List Alerts V 2"
+						"Security List Alerts v2"
 					]
 				}
 			}
@@ -622,7 +622,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security List Alerts V 2"
+						"Security List Alerts v2"
 					]
 				}
 			}
@@ -647,7 +647,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security List Alerts V 2"
+						"Security List Alerts v2"
 					]
 				}
 			}
@@ -672,7 +672,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security List Alerts V 2"
+						"Security List Alerts v2"
 					]
 				}
 			}
@@ -697,7 +697,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security List Alerts V 2"
+						"Security List Alerts v2"
 					]
 				}
 			}
@@ -716,7 +716,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security Create Alerts V 2"
+						"Security Create Alerts v2"
 					]
 				}
 			}
@@ -732,7 +732,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security Create Alerts V 2"
+						"Security Create Alerts v2"
 					]
 				}
 			}
@@ -751,7 +751,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security Delete Alerts V 2"
+						"Security Delete Alerts v2"
 					]
 				}
 			}
@@ -775,7 +775,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security Delete Alerts V 2"
+						"Security Delete Alerts v2"
 					]
 				}
 			}
@@ -794,7 +794,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security Get Alerts V 2"
+						"Security Get Alerts v2"
 					]
 				}
 			}
@@ -819,7 +819,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security Get Alerts V 2"
+						"Security Get Alerts v2"
 					]
 				}
 			}
@@ -844,7 +844,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security Get Alerts V 2"
+						"Security Get Alerts v2"
 					]
 				}
 			}
@@ -863,7 +863,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security Update Alerts V 2"
+						"Security Update Alerts v2"
 					]
 				}
 			}
@@ -879,7 +879,7 @@ export const securityAlertDescription: INodeProperties[] = [
 						"Security Alert"
 					],
 					"operation": [
-						"Security Update Alerts V 2"
+						"Security Update Alerts v2"
 					]
 				}
 			}

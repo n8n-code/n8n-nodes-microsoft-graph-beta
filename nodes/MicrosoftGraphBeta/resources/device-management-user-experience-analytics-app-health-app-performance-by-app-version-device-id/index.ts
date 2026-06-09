@@ -9,14 +9,14 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					]
 				}
 			},
 			"options": [
 				{
-					"name": "Device Management List User Experience Analytics App Health Application Performance By App Version Device Id",
-					"value": "Device Management List User Experience Analytics App Health Application Performance By App Version Device Id",
+					"name": "Device Management List User Experience Analytics App Health Application Performance By App Version Device ID",
+					"value": "Device Management List User Experience Analytics App Health Application Performance By App Version Device ID",
 					"action": "Get userExperienceAnalyticsAppHealthApplicationPerformanceByAppVersionDeviceId from deviceManagement",
 					"description": "User experience analytics appHealth Application Performance by App Version Device Id",
 					"routing": {
@@ -27,8 +27,8 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 					}
 				},
 				{
-					"name": "Device Management Create User Experience Analytics App Health Application Performance By App Version Device Id",
-					"value": "Device Management Create User Experience Analytics App Health Application Performance By App Version Device Id",
+					"name": "Device Management Create User Experience Analytics App Health Application Performance By App Version Device ID",
+					"value": "Device Management Create User Experience Analytics App Health Application Performance By App Version Device ID",
 					"action": "Create new navigation property to userExperienceAnalyticsAppHealthApplicationPerformanceByAppVersionDeviceId for deviceManagement",
 					"description": "Create new navigation property to userExperienceAnalyticsAppHealthApplicationPerformanceByAppVersionDeviceId for deviceManagement",
 					"routing": {
@@ -39,8 +39,8 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 					}
 				},
 				{
-					"name": "Device Management Delete User Experience Analytics App Health Application Performance By App Version Device Id",
-					"value": "Device Management Delete User Experience Analytics App Health Application Performance By App Version Device Id",
+					"name": "Device Management Delete User Experience Analytics App Health Application Performance By App Version Device ID",
+					"value": "Device Management Delete User Experience Analytics App Health Application Performance By App Version Device ID",
 					"action": "Delete navigation property userExperienceAnalyticsAppHealthApplicationPerformanceByAppVersionDeviceId for deviceManagement",
 					"description": "Delete navigation property userExperienceAnalyticsAppHealthApplicationPerformanceByAppVersionDeviceId for deviceManagement",
 					"routing": {
@@ -51,8 +51,8 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 					}
 				},
 				{
-					"name": "Device Management Get User Experience Analytics App Health Application Performance By App Version Device Id",
-					"value": "Device Management Get User Experience Analytics App Health Application Performance By App Version Device Id",
+					"name": "Device Management Get User Experience Analytics App Health Application Performance By App Version Device ID",
+					"value": "Device Management Get User Experience Analytics App Health Application Performance By App Version Device ID",
 					"action": "Get userExperienceAnalyticsAppHealthApplicationPerformanceByAppVersionDeviceId from deviceManagement",
 					"description": "User experience analytics appHealth Application Performance by App Version Device Id",
 					"routing": {
@@ -63,8 +63,8 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 					}
 				},
 				{
-					"name": "Device Management Update User Experience Analytics App Health Application Performance By App Version Device Id",
-					"value": "Device Management Update User Experience Analytics App Health Application Performance By App Version Device Id",
+					"name": "Device Management Update User Experience Analytics App Health Application Performance By App Version Device ID",
+					"value": "Device Management Update User Experience Analytics App Health Application Performance By App Version Device ID",
 					"action": "Update the navigation property userExperienceAnalyticsAppHealthApplicationPerformanceByAppVersionDeviceId in deviceManagement",
 					"description": "Update the navigation property userExperienceAnalyticsAppHealthApplicationPerformanceByAppVersionDeviceId in deviceManagement",
 					"routing": {
@@ -88,10 +88,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management List User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management List User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -113,10 +113,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management List User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management List User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -138,10 +138,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management List User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management List User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -163,10 +163,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management List User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management List User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -188,10 +188,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management List User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management List User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -213,10 +213,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management List User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management List User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -238,10 +238,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management List User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management List User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -263,10 +263,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management List User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management List User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -288,10 +288,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management List User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management List User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -307,10 +307,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management Create User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management Create User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -323,10 +323,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management Create User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management Create User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -342,10 +342,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management Delete User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management Delete User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -366,10 +366,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management Delete User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management Delete User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -385,10 +385,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management Get User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management Get User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -410,10 +410,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management Get User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management Get User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -435,10 +435,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management Get User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management Get User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -454,10 +454,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management Update User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management Update User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}
@@ -470,10 +470,10 @@ export const deviceManagementUserExperienceAnalyticsAppHealthAppPerformanceByApp
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Device Management User Experience Analytics App Health App Performance By App Version Device Id"
+						"Device Management User Experience Analytics App Health App Performance By App Version Device ID"
 					],
 					"operation": [
-						"Device Management Update User Experience Analytics App Health Application Performance By App Version Device Id"
+						"Device Management Update User Experience Analytics App Health Application Performance By App Version Device ID"
 					]
 				}
 			}

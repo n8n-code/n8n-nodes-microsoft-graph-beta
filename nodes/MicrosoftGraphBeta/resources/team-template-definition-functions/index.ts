@@ -909,7 +909,7 @@ export const teamTemplateDefinitionFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"description": "Usage: userId='@userId'",
 			"default": "",
@@ -934,7 +934,7 @@ export const teamTemplateDefinitionFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"description": "Usage: tenantId='@tenantId'",
 			"default": "",
@@ -1391,7 +1391,7 @@ export const teamTemplateDefinitionFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"description": "Usage: userId='@userId'",
 			"default": "",
@@ -1416,7 +1416,7 @@ export const teamTemplateDefinitionFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"description": "Usage: tenantId='@tenantId'",
 			"default": "",

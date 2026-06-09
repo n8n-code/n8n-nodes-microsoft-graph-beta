@@ -6688,7 +6688,7 @@ export const groupsFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "List Id",
+			"displayName": "List ID",
 			"name": "listId",
 			"required": true,
 			"description": "Usage: listId='{listId}'",
@@ -7970,7 +7970,7 @@ export const groupsFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"description": "Usage: userId='@userId'",
 			"default": "",
@@ -7995,7 +7995,7 @@ export const groupsFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"description": "Usage: tenantId='@tenantId'",
 			"default": "",
@@ -8452,7 +8452,7 @@ export const groupsFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"description": "Usage: userId='@userId'",
 			"default": "",
@@ -8477,7 +8477,7 @@ export const groupsFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"description": "Usage: tenantId='@tenantId'",
 			"default": "",

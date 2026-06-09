@@ -9,7 +9,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					]
 				}
 			},
@@ -75,8 +75,8 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Domains List Verification Dns Records",
-					"value": "Domains List Verification Dns Records",
+					"name": "Domains List Verification DNS Records",
+					"value": "Domains List Verification DNS Records",
 					"action": "List verificationDnsRecords",
 					"description": "Retrieve a list of domainDnsRecord objects. You cannot use an associated domain with your Azure AD tenant until ownership is verified. To verify the ownership of the domain, retrieve the domain verification records and add the details to the zone file of the domain. This can be done through the domain registrar or DNS server configuration. Root domains require verification. For example, contoso.com requires verification. If a root domain is verified, subdomains of the root domain are automatically verified. For example, subdomain.contoso.com is automatically be verified if contoso.com has been verified.",
 					"routing": {
@@ -87,8 +87,8 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Domains Create Verification Dns Records",
-					"value": "Domains Create Verification Dns Records",
+					"name": "Domains Create Verification DNS Records",
+					"value": "Domains Create Verification DNS Records",
 					"action": "Create new navigation property to verificationDnsRecords for domains",
 					"description": "Create new navigation property to verificationDnsRecords for domains",
 					"routing": {
@@ -99,8 +99,8 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Domains Delete Verification Dns Records",
-					"value": "Domains Delete Verification Dns Records",
+					"name": "Domains Delete Verification DNS Records",
+					"value": "Domains Delete Verification DNS Records",
 					"action": "Delete navigation property verificationDnsRecords for domains",
 					"description": "Delete navigation property verificationDnsRecords for domains",
 					"routing": {
@@ -111,8 +111,8 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Domains Get Verification Dns Records",
-					"value": "Domains Get Verification Dns Records",
+					"name": "Domains Get Verification DNS Records",
+					"value": "Domains Get Verification DNS Records",
 					"action": "Get verificationDnsRecords from domains",
 					"description": "DNS records that the customer adds to the DNS zone file of the domain before the customer can complete domain ownership verification with Azure AD. Read-only, Nullable. Supports $expand.",
 					"routing": {
@@ -123,8 +123,8 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Domains Update Verification Dns Records",
-					"value": "Domains Update Verification Dns Records",
+					"name": "Domains Update Verification DNS Records",
+					"value": "Domains Update Verification DNS Records",
 					"action": "Update the navigation property verificationDnsRecords in domains",
 					"description": "Update the navigation property verificationDnsRecords in domains",
 					"routing": {
@@ -148,7 +148,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains List Service Configuration Records"
@@ -173,7 +173,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains List Service Configuration Records"
@@ -198,7 +198,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains List Service Configuration Records"
@@ -223,7 +223,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains List Service Configuration Records"
@@ -248,7 +248,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains List Service Configuration Records"
@@ -273,7 +273,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains List Service Configuration Records"
@@ -298,7 +298,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains List Service Configuration Records"
@@ -323,7 +323,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains List Service Configuration Records"
@@ -348,7 +348,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains List Service Configuration Records"
@@ -367,7 +367,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains Create Service Configuration Records"
@@ -383,7 +383,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains Create Service Configuration Records"
@@ -402,7 +402,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains Delete Service Configuration Records"
@@ -426,7 +426,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains Delete Service Configuration Records"
@@ -445,7 +445,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains Get Service Configuration Records"
@@ -470,7 +470,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains Get Service Configuration Records"
@@ -495,7 +495,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains Get Service Configuration Records"
@@ -514,7 +514,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains Update Service Configuration Records"
@@ -530,7 +530,7 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
 						"Domains Update Service Configuration Records"
@@ -549,10 +549,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains List Verification Dns Records"
+						"Domains List Verification DNS Records"
 					]
 				}
 			}
@@ -574,10 +574,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains List Verification Dns Records"
+						"Domains List Verification DNS Records"
 					]
 				}
 			}
@@ -599,10 +599,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains List Verification Dns Records"
+						"Domains List Verification DNS Records"
 					]
 				}
 			}
@@ -624,10 +624,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains List Verification Dns Records"
+						"Domains List Verification DNS Records"
 					]
 				}
 			}
@@ -649,10 +649,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains List Verification Dns Records"
+						"Domains List Verification DNS Records"
 					]
 				}
 			}
@@ -674,10 +674,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains List Verification Dns Records"
+						"Domains List Verification DNS Records"
 					]
 				}
 			}
@@ -699,10 +699,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains List Verification Dns Records"
+						"Domains List Verification DNS Records"
 					]
 				}
 			}
@@ -724,10 +724,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains List Verification Dns Records"
+						"Domains List Verification DNS Records"
 					]
 				}
 			}
@@ -749,10 +749,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains List Verification Dns Records"
+						"Domains List Verification DNS Records"
 					]
 				}
 			}
@@ -768,10 +768,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains Create Verification Dns Records"
+						"Domains Create Verification DNS Records"
 					]
 				}
 			}
@@ -784,10 +784,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains Create Verification Dns Records"
+						"Domains Create Verification DNS Records"
 					]
 				}
 			}
@@ -803,10 +803,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains Delete Verification Dns Records"
+						"Domains Delete Verification DNS Records"
 					]
 				}
 			}
@@ -827,10 +827,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains Delete Verification Dns Records"
+						"Domains Delete Verification DNS Records"
 					]
 				}
 			}
@@ -846,10 +846,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains Get Verification Dns Records"
+						"Domains Get Verification DNS Records"
 					]
 				}
 			}
@@ -871,10 +871,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains Get Verification Dns Records"
+						"Domains Get Verification DNS Records"
 					]
 				}
 			}
@@ -896,10 +896,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains Get Verification Dns Records"
+						"Domains Get Verification DNS Records"
 					]
 				}
 			}
@@ -915,10 +915,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains Update Verification Dns Records"
+						"Domains Update Verification DNS Records"
 					]
 				}
 			}
@@ -931,10 +931,10 @@ export const domainsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domains Domain Dns Record"
+						"Domains Domain DNS Record"
 					],
 					"operation": [
-						"Domains Update Verification Dns Records"
+						"Domains Update Verification DNS Records"
 					]
 				}
 			}

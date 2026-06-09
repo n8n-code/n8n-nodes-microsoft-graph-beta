@@ -15,8 +15,8 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 			},
 			"options": [
 				{
-					"name": "Service Principals List Oauth 2 Permission Grants",
-					"value": "Service Principals List Oauth 2 Permission Grants",
+					"name": "Service Principals List OAuth 2 Permission Grants",
+					"value": "Service Principals List OAuth 2 Permission Grants",
 					"action": "List oauth2PermissionGrants",
 					"description": "Retrieve a list of oAuth2PermissionGrant entities, representing delegated permissions granted to the service principal (representing the client application) to access an API on behalf of a user.",
 					"routing": {
@@ -27,8 +27,8 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 					}
 				},
 				{
-					"name": "Service Principals Get Oauth 2 Permission Grants",
-					"value": "Service Principals Get Oauth 2 Permission Grants",
+					"name": "Service Principals Get OAuth 2 Permission Grants",
+					"value": "Service Principals Get OAuth 2 Permission Grants",
 					"action": "Get oauth2PermissionGrants from servicePrincipals",
 					"description": "Delegated permission grants authorizing this service principal to access an API on behalf of a signed-in user. Read-only. Nullable.",
 					"routing": {
@@ -55,7 +55,7 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 						"Service Principals O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Service Principals List Oauth 2 Permission Grants"
+						"Service Principals List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -80,7 +80,7 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 						"Service Principals O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Service Principals List Oauth 2 Permission Grants"
+						"Service Principals List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -105,7 +105,7 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 						"Service Principals O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Service Principals List Oauth 2 Permission Grants"
+						"Service Principals List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -130,7 +130,7 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 						"Service Principals O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Service Principals List Oauth 2 Permission Grants"
+						"Service Principals List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -155,7 +155,7 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 						"Service Principals O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Service Principals List Oauth 2 Permission Grants"
+						"Service Principals List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -180,7 +180,7 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 						"Service Principals O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Service Principals List Oauth 2 Permission Grants"
+						"Service Principals List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -205,7 +205,7 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 						"Service Principals O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Service Principals List Oauth 2 Permission Grants"
+						"Service Principals List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -230,7 +230,7 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 						"Service Principals O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Service Principals List Oauth 2 Permission Grants"
+						"Service Principals List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -255,7 +255,7 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 						"Service Principals O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Service Principals List Oauth 2 Permission Grants"
+						"Service Principals List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -274,7 +274,7 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 						"Service Principals O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Service Principals Get Oauth 2 Permission Grants"
+						"Service Principals Get OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -299,7 +299,7 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 						"Service Principals O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Service Principals Get Oauth 2 Permission Grants"
+						"Service Principals Get OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -324,7 +324,7 @@ export const servicePrincipalsOAuth2PermissionGrantDescription: INodeProperties[
 						"Service Principals O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Service Principals Get Oauth 2 Permission Grants"
+						"Service Principals Get OAuth 2 Permission Grants"
 					]
 				}
 			}

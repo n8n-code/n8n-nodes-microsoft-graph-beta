@@ -73,7 +73,7 @@ export const governanceResourcesActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "External Id",
+			"displayName": "External ID",
 			"name": "externalId",
 			"type": "string",
 			"default": "",

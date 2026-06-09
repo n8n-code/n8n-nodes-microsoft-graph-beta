@@ -1276,7 +1276,7 @@ export const teamsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"type": "number",
 			"default": 0,
@@ -1525,7 +1525,7 @@ export const teamsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"type": "string",
 			"default": "",
@@ -1640,7 +1640,7 @@ export const teamsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",
@@ -2361,7 +2361,7 @@ export const teamsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",

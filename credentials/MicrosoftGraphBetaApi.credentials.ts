@@ -8,7 +8,7 @@ import type {
 export class MicrosoftGraphBetaApi implements ICredentialType {
 	name = 'N8nDevMicrosoftGraphBetaApi';
 
-	displayName = 'microsoft-graph-beta API';
+	displayName = 'Microsoft Graph Beta API';
 
 	icon: Icon = { light: 'file:../nodes/MicrosoftGraphBeta/microsoft-graph-beta.png', dark: 'file:../nodes/MicrosoftGraphBeta/microsoft-graph-beta.dark.png' };
 
@@ -22,7 +22,7 @@ export class MicrosoftGraphBetaApi implements ICredentialType {
 			default: 'https://graph.microsoft.com/beta',
 			required: true,
 			placeholder: 'https://graph.microsoft.com/beta',
-			description: 'The base URL of your microsoft-graph-beta API server',
+			description: 'The base URL of your Microsoft Graph Beta API server',
 		},
 		{
 			displayName: 'API Key',

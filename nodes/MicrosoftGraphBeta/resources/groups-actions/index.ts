@@ -2295,8 +2295,8 @@ export const groupsActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Groups Group Onenote Notebooks Get Notebook From Web Url",
-					"value": "Groups Group Onenote Notebooks Get Notebook From Web Url",
+					"name": "Groups Group Onenote Notebooks Get Notebook From Web URL",
+					"value": "Groups Group Onenote Notebooks Get Notebook From Web URL",
 					"action": "Invoke action getNotebookFromWebUrl",
 					"description": "Retrieve the properties and relationships of a notebook object by using its URL path. The location can be user notebooks on Microsoft 365, group notebooks, or SharePoint site-hosted team notebooks on Microsoft 365.",
 					"routing": {
@@ -2883,8 +2883,8 @@ export const groupsActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Groups Group Sites Site Onenote Notebooks Get Notebook From Web Url",
-					"value": "Groups Group Sites Site Onenote Notebooks Get Notebook From Web Url",
+					"name": "Groups Group Sites Site Onenote Notebooks Get Notebook From Web URL",
+					"value": "Groups Group Sites Site Onenote Notebooks Get Notebook From Web URL",
 					"action": "Invoke action getNotebookFromWebUrl",
 					"description": "Retrieve the properties and relationships of a notebook object by using its URL path. The location can be user notebooks on Microsoft 365, group notebooks, or SharePoint site-hosted team notebooks on Microsoft 365.",
 					"routing": {
@@ -3853,7 +3853,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Member Id",
+			"displayName": "Member ID",
 			"name": "memberId",
 			"type": "string",
 			"default": "",
@@ -4011,7 +4011,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"type": "string",
 			"default": "",
@@ -4126,7 +4126,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",
@@ -13925,7 +13925,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -13968,7 +13968,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -14011,7 +14011,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -14245,7 +14245,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Member Id",
+			"displayName": "Member ID",
 			"name": "memberId",
 			"type": "string",
 			"default": "",
@@ -14536,7 +14536,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",
@@ -14573,13 +14573,13 @@ export const groupsActionsDescription: INodeProperties[] = [
 						"Groups Actions"
 					],
 					"operation": [
-						"Groups Group Onenote Notebooks Get Notebook From Web Url"
+						"Groups Group Onenote Notebooks Get Notebook From Web URL"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Web Url",
+			"displayName": "Web URL",
 			"name": "webUrl",
 			"type": "string",
 			"default": "",
@@ -14597,7 +14597,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 						"Groups Actions"
 					],
 					"operation": [
-						"Groups Group Onenote Notebooks Get Notebook From Web Url"
+						"Groups Group Onenote Notebooks Get Notebook From Web URL"
 					]
 				}
 			}
@@ -14622,7 +14622,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -14694,7 +14694,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -14718,7 +14718,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -14761,7 +14761,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -14785,7 +14785,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -14833,7 +14833,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -14857,7 +14857,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -14900,7 +14900,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -14924,7 +14924,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -14972,7 +14972,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -14996,7 +14996,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -15039,7 +15039,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -15063,7 +15063,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -15087,7 +15087,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -15111,7 +15111,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -15197,7 +15197,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -15221,7 +15221,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -15269,7 +15269,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -15293,7 +15293,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -15336,7 +15336,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -15360,7 +15360,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -15408,7 +15408,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -15432,7 +15432,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -15475,7 +15475,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -15499,7 +15499,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -15523,7 +15523,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -15547,7 +15547,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -15633,7 +15633,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -15657,7 +15657,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -15681,7 +15681,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -15705,7 +15705,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -15791,7 +15791,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -15815,7 +15815,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -15863,7 +15863,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -15887,7 +15887,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -15930,7 +15930,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -15954,7 +15954,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -16002,7 +16002,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -16026,7 +16026,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -16069,7 +16069,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -16093,7 +16093,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -16117,7 +16117,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -16141,7 +16141,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -16227,7 +16227,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -16251,7 +16251,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -16299,7 +16299,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -16323,7 +16323,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -16366,7 +16366,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -16390,7 +16390,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -16438,7 +16438,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -16462,7 +16462,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -16505,7 +16505,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -16529,7 +16529,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -16553,7 +16553,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -16577,7 +16577,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -16754,7 +16754,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"type": "string",
 			"default": "",
@@ -16869,7 +16869,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",
@@ -17232,7 +17232,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Content Type Id",
+			"displayName": "Content Type ID",
 			"name": "contentTypeId",
 			"type": "string",
 			"default": "",
@@ -17715,7 +17715,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Content Type Id",
+			"displayName": "Content Type ID",
 			"name": "contentTypeId",
 			"type": "string",
 			"default": "",
@@ -18144,13 +18144,13 @@ export const groupsActionsDescription: INodeProperties[] = [
 						"Groups Actions"
 					],
 					"operation": [
-						"Groups Group Sites Site Onenote Notebooks Get Notebook From Web Url"
+						"Groups Group Sites Site Onenote Notebooks Get Notebook From Web URL"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Web Url",
+			"displayName": "Web URL",
 			"name": "webUrl",
 			"type": "string",
 			"default": "",
@@ -18168,7 +18168,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 						"Groups Actions"
 					],
 					"operation": [
-						"Groups Group Sites Site Onenote Notebooks Get Notebook From Web Url"
+						"Groups Group Sites Site Onenote Notebooks Get Notebook From Web URL"
 					]
 				}
 			}
@@ -18193,7 +18193,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -18265,7 +18265,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -18289,7 +18289,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -18332,7 +18332,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -18356,7 +18356,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -18404,7 +18404,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -18428,7 +18428,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -18471,7 +18471,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -18495,7 +18495,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -18543,7 +18543,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -18567,7 +18567,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -18610,7 +18610,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -18634,7 +18634,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -18658,7 +18658,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -18682,7 +18682,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -18768,7 +18768,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -18792,7 +18792,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -18840,7 +18840,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -18864,7 +18864,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -18907,7 +18907,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -18931,7 +18931,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -18979,7 +18979,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -19003,7 +19003,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -19046,7 +19046,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -19070,7 +19070,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -19094,7 +19094,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -19118,7 +19118,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -19204,7 +19204,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -19228,7 +19228,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -19252,7 +19252,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -19276,7 +19276,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -19362,7 +19362,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -19386,7 +19386,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -19434,7 +19434,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -19458,7 +19458,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -19501,7 +19501,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -19525,7 +19525,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -19573,7 +19573,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -19597,7 +19597,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -19640,7 +19640,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -19664,7 +19664,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -19688,7 +19688,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -19712,7 +19712,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -19798,7 +19798,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -19822,7 +19822,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -19870,7 +19870,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -19894,7 +19894,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -19937,7 +19937,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -19961,7 +19961,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -20009,7 +20009,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -20033,7 +20033,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -20076,7 +20076,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"type": "string",
 			"default": "",
@@ -20100,7 +20100,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -20124,7 +20124,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Collection Id",
+			"displayName": "Site Collection ID",
 			"name": "siteCollectionId",
 			"type": "string",
 			"default": "",
@@ -20148,7 +20148,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Site Id",
+			"displayName": "Site ID",
 			"name": "siteId",
 			"type": "string",
 			"default": "",
@@ -20272,7 +20272,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Column Id",
+			"displayName": "Column ID",
 			"name": "columnId",
 			"type": "number",
 			"default": 0,
@@ -20296,7 +20296,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Horizontal Section Id",
+			"displayName": "Horizontal Section ID",
 			"name": "horizontalSectionId",
 			"type": "number",
 			"default": 0,
@@ -21234,7 +21234,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Chain Id",
+			"displayName": "Chain ID",
 			"name": "chainId",
 			"type": "number",
 			"default": 0,
@@ -21483,7 +21483,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"type": "string",
 			"default": "",
@@ -21598,7 +21598,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",
@@ -22319,7 +22319,7 @@ export const groupsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",

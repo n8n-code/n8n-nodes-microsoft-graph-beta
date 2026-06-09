@@ -440,7 +440,7 @@ export const applicationsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"type": "string",
 			"default": "",
@@ -555,7 +555,7 @@ export const applicationsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",
@@ -904,7 +904,7 @@ export const applicationsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Key Id",
+			"displayName": "Key ID",
 			"name": "keyId",
 			"type": "string",
 			"default": "",
@@ -971,7 +971,7 @@ export const applicationsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Key Id",
+			"displayName": "Key ID",
 			"name": "keyId",
 			"type": "string",
 			"default": "",
@@ -1033,7 +1033,7 @@ export const applicationsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Verified Publisher Id",
+			"displayName": "Verified Publisher ID",
 			"name": "verifiedPublisherId",
 			"type": "string",
 			"default": "",
@@ -1143,7 +1143,7 @@ export const applicationsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Template Id",
+			"displayName": "Template ID",
 			"name": "templateId",
 			"type": "string",
 			"default": "",
@@ -1401,7 +1401,7 @@ export const applicationsActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Template Id",
+			"displayName": "Template ID",
 			"name": "templateId",
 			"type": "string",
 			"default": "",

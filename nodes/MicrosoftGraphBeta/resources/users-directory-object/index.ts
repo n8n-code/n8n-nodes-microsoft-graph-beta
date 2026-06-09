@@ -1032,7 +1032,7 @@ export const usersDirectoryObjectDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Odata Id",
+			"displayName": "Odata ID",
 			"name": "@odata-id",
 			"type": "string",
 			"default": "",

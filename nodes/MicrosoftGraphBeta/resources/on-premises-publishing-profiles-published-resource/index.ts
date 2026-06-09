@@ -981,7 +981,7 @@ export const onPremisesPublishingProfilesPublishedResourceDescription: INodeProp
 			}
 		},
 		{
-			"displayName": "Odata Id",
+			"displayName": "Odata ID",
 			"name": "@odata-id",
 			"type": "string",
 			"default": "",
@@ -1048,7 +1048,7 @@ export const onPremisesPublishingProfilesPublishedResourceDescription: INodeProp
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "%40id",
 			"description": "Delete Uri",
 			"default": "",

@@ -9,14 +9,14 @@ export const oauth2PermissionGrantsFunctionsDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants Functions"
+						"OAuth 2 Permission Grants Functions"
 					]
 				}
 			},
 			"options": [
 				{
-					"name": "Oauth 2 Permission Grants Delta",
-					"value": "Oauth 2 Permission Grants Delta",
+					"name": "OAuth 2 Permission Grants Delta",
+					"value": "OAuth 2 Permission Grants Delta",
 					"action": "Invoke function delta",
 					"description": "Invoke function delta",
 					"routing": {
@@ -40,10 +40,10 @@ export const oauth2PermissionGrantsFunctionsDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants Functions"
+						"OAuth 2 Permission Grants Functions"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants Delta"
+						"OAuth 2 Permission Grants Delta"
 					]
 				}
 			}
@@ -65,10 +65,10 @@ export const oauth2PermissionGrantsFunctionsDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants Functions"
+						"OAuth 2 Permission Grants Functions"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants Delta"
+						"OAuth 2 Permission Grants Delta"
 					]
 				}
 			}
@@ -90,10 +90,10 @@ export const oauth2PermissionGrantsFunctionsDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants Functions"
+						"OAuth 2 Permission Grants Functions"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants Delta"
+						"OAuth 2 Permission Grants Delta"
 					]
 				}
 			}
@@ -115,10 +115,10 @@ export const oauth2PermissionGrantsFunctionsDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants Functions"
+						"OAuth 2 Permission Grants Functions"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants Delta"
+						"OAuth 2 Permission Grants Delta"
 					]
 				}
 			}
@@ -140,10 +140,10 @@ export const oauth2PermissionGrantsFunctionsDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants Functions"
+						"OAuth 2 Permission Grants Functions"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants Delta"
+						"OAuth 2 Permission Grants Delta"
 					]
 				}
 			}
@@ -165,10 +165,10 @@ export const oauth2PermissionGrantsFunctionsDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants Functions"
+						"OAuth 2 Permission Grants Functions"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants Delta"
+						"OAuth 2 Permission Grants Delta"
 					]
 				}
 			}
@@ -190,10 +190,10 @@ export const oauth2PermissionGrantsFunctionsDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants Functions"
+						"OAuth 2 Permission Grants Functions"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants Delta"
+						"OAuth 2 Permission Grants Delta"
 					]
 				}
 			}
@@ -215,10 +215,10 @@ export const oauth2PermissionGrantsFunctionsDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Oauth 2 Permission Grants Functions"
+						"OAuth 2 Permission Grants Functions"
 					],
 					"operation": [
-						"Oauth 2 Permission Grants Delta"
+						"OAuth 2 Permission Grants Delta"
 					]
 				}
 			}

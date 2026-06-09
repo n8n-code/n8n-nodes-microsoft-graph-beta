@@ -171,8 +171,8 @@ export const deviceAppManagementActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Device App Management Mobile Apps Validate Xml",
-					"value": "Device App Management Mobile Apps Validate Xml",
+					"name": "Device App Management Mobile Apps Validate XML",
+					"value": "Device App Management Mobile Apps Validate XML",
 					"action": "Invoke action validateXml",
 					"description": "Invoke action validateXml",
 					"routing": {
@@ -973,13 +973,13 @@ export const deviceAppManagementActionsDescription: INodeProperties[] = [
 						"Device App Management Actions"
 					],
 					"operation": [
-						"Device App Management Mobile Apps Validate Xml"
+						"Device App Management Mobile Apps Validate XML"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Office Configuration Xml",
+			"displayName": "Office Configuration XML",
 			"name": "officeConfigurationXml",
 			"type": "string",
 			"default": "",
@@ -997,7 +997,7 @@ export const deviceAppManagementActionsDescription: INodeProperties[] = [
 						"Device App Management Actions"
 					],
 					"operation": [
-						"Device App Management Mobile Apps Validate Xml"
+						"Device App Management Mobile Apps Validate XML"
 					]
 				}
 			}

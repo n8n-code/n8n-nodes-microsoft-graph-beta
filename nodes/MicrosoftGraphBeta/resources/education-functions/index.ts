@@ -99,8 +99,8 @@ export const educationFunctionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Education Synchronization Profiles Education Synchronization Profile Upload Url",
-					"value": "Education Synchronization Profiles Education Synchronization Profile Upload Url",
+					"name": "Education Synchronization Profiles Education Synchronization Profile Upload URL",
+					"value": "Education Synchronization Profiles Education Synchronization Profile Upload URL",
 					"action": "Invoke function uploadUrl",
 					"description": "Invoke function uploadUrl",
 					"routing": {
@@ -1521,7 +1521,7 @@ export const educationFunctionsDescription: INodeProperties[] = [
 						"Education Functions"
 					],
 					"operation": [
-						"Education Synchronization Profiles Education Synchronization Profile Upload Url"
+						"Education Synchronization Profiles Education Synchronization Profile Upload URL"
 					]
 				}
 			}

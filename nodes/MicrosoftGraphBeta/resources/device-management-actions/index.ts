@@ -75,8 +75,8 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Device Management Android For Work Settings Request Signup Url",
-					"value": "Device Management Android For Work Settings Request Signup Url",
+					"name": "Device Management Android For Work Settings Request Signup URL",
+					"value": "Device Management Android For Work Settings Request Signup URL",
 					"action": "Invoke action requestSignupUrl",
 					"description": "Invoke action requestSignupUrl",
 					"routing": {
@@ -159,8 +159,8 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Device Management Android Managed Store Account Enterprise Settings Request Signup Url",
-					"value": "Device Management Android Managed Store Account Enterprise Settings Request Signup Url",
+					"name": "Device Management Android Managed Store Account Enterprise Settings Request Signup URL",
+					"value": "Device Management Android Managed Store Account Enterprise Settings Request Signup URL",
 					"action": "Invoke action requestSignupUrl",
 					"description": "Invoke action requestSignupUrl",
 					"routing": {
@@ -375,8 +375,8 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Device Management Comanaged Devices Managed Device Log Collection Requests Device Log Collection Response Create Download Url",
-					"value": "Device Management Comanaged Devices Managed Device Log Collection Requests Device Log Collection Response Create Download Url",
+					"name": "Device Management Comanaged Devices Managed Device Log Collection Requests Device Log Collection Response Create Download URL",
+					"value": "Device Management Comanaged Devices Managed Device Log Collection Requests Device Log Collection Response Create Download URL",
 					"action": "Invoke action createDownloadUrl",
 					"description": "Invoke action createDownloadUrl",
 					"routing": {
@@ -1683,8 +1683,8 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Device Management Managed Devices Managed Device Log Collection Requests Device Log Collection Response Create Download Url",
-					"value": "Device Management Managed Devices Managed Device Log Collection Requests Device Log Collection Response Create Download Url",
+					"name": "Device Management Managed Devices Managed Device Log Collection Requests Device Log Collection Response Create Download URL",
+					"value": "Device Management Managed Devices Managed Device Log Collection Requests Device Log Collection Response Create Download URL",
 					"action": "Invoke action createDownloadUrl",
 					"description": "Invoke action createDownloadUrl",
 					"routing": {
@@ -2283,8 +2283,8 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Device Management Microsoft Tunnel Server Log Collection Responses Microsoft Tunnel Server Log Collection Response Create Download Url",
-					"value": "Device Management Microsoft Tunnel Server Log Collection Responses Microsoft Tunnel Server Log Collection Response Create Download Url",
+					"name": "Device Management Microsoft Tunnel Server Log Collection Responses Microsoft Tunnel Server Log Collection Response Create Download URL",
+					"value": "Device Management Microsoft Tunnel Server Log Collection Responses Microsoft Tunnel Server Log Collection Response Create Download URL",
 					"action": "Invoke action createDownloadUrl",
 					"description": "Invoke action createDownloadUrl",
 					"routing": {
@@ -2295,8 +2295,8 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Device Management Microsoft Tunnel Server Log Collection Responses Microsoft Tunnel Server Log Collection Response Generate Download Url",
-					"value": "Device Management Microsoft Tunnel Server Log Collection Responses Microsoft Tunnel Server Log Collection Response Generate Download Url",
+					"name": "Device Management Microsoft Tunnel Server Log Collection Responses Microsoft Tunnel Server Log Collection Response Generate Download URL",
+					"value": "Device Management Microsoft Tunnel Server Log Collection Responses Microsoft Tunnel Server Log Collection Response Generate Download URL",
 					"action": "Invoke action generateDownloadUrl",
 					"description": "Invoke action generateDownloadUrl",
 					"routing": {
@@ -2367,8 +2367,8 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Device Management Mobile App Troubleshooting Events Mobile App Troubleshooting Event App Log Collection Requests App Log Collection Request Create Download Url",
-					"value": "Device Management Mobile App Troubleshooting Events Mobile App Troubleshooting Event App Log Collection Requests App Log Collection Request Create Download Url",
+					"name": "Device Management Mobile App Troubleshooting Events Mobile App Troubleshooting Event App Log Collection Requests App Log Collection Request Create Download URL",
+					"value": "Device Management Mobile App Troubleshooting Events Mobile App Troubleshooting Event App Log Collection Requests App Log Collection Request Create Download URL",
 					"action": "Invoke action createDownloadUrl",
 					"description": "Invoke action createDownloadUrl",
 					"routing": {
@@ -3243,8 +3243,8 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Device Management Role Scope Tags Get Role Scope Tags By Id",
-					"value": "Device Management Role Scope Tags Get Role Scope Tags By Id",
+					"name": "Device Management Role Scope Tags Get Role Scope Tags By ID",
+					"value": "Device Management Role Scope Tags Get Role Scope Tags By ID",
 					"action": "Invoke action getRoleScopeTagsById",
 					"description": "Invoke action getRoleScopeTagsById",
 					"routing": {
@@ -4014,7 +4014,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 						"Device Management Actions"
 					],
 					"operation": [
-						"Device Management Android For Work Settings Request Signup Url"
+						"Device Management Android For Work Settings Request Signup URL"
 					]
 				}
 			}
@@ -4038,7 +4038,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 						"Device Management Actions"
 					],
 					"operation": [
-						"Device Management Android For Work Settings Request Signup Url"
+						"Device Management Android For Work Settings Request Signup URL"
 					]
 				}
 			}
@@ -4291,7 +4291,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 						"Device Management Actions"
 					],
 					"operation": [
-						"Device Management Android Managed Store Account Enterprise Settings Request Signup Url"
+						"Device Management Android Managed Store Account Enterprise Settings Request Signup URL"
 					]
 				}
 			}
@@ -4315,7 +4315,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 						"Device Management Actions"
 					],
 					"operation": [
-						"Device Management Android Managed Store Account Enterprise Settings Request Signup Url"
+						"Device Management Android Managed Store Account Enterprise Settings Request Signup URL"
 					]
 				}
 			}
@@ -5110,7 +5110,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Carrier Url",
+			"displayName": "Carrier URL",
 			"name": "carrierUrl",
 			"type": "string",
 			"default": "",
@@ -5430,7 +5430,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 						"Device Management Actions"
 					],
 					"operation": [
-						"Device Management Comanaged Devices Managed Device Log Collection Requests Device Log Collection Response Create Download Url"
+						"Device Management Comanaged Devices Managed Device Log Collection Requests Device Log Collection Response Create Download URL"
 					]
 				}
 			}
@@ -5455,7 +5455,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Carrier Url",
+			"displayName": "Carrier URL",
 			"name": "carrierUrl",
 			"type": "string",
 			"default": "",
@@ -5943,7 +5943,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Script Policy Id",
+			"displayName": "Script Policy ID",
 			"name": "scriptPolicyId",
 			"type": "string",
 			"default": "",
@@ -6059,7 +6059,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Remediation Url",
+			"displayName": "Remediation URL",
 			"name": "remediationUrl",
 			"type": "string",
 			"default": "",
@@ -6278,7 +6278,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Pub Sub Connection Id",
+			"displayName": "Pub Sub Connection ID",
 			"name": "pubSubConnectionId",
 			"type": "string",
 			"default": "",
@@ -6364,7 +6364,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Target Service Plan Id",
+			"displayName": "Target Service Plan ID",
 			"name": "targetServicePlanId",
 			"type": "string",
 			"default": "",
@@ -6407,7 +6407,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Cloud Pc Snapshot Id",
+			"displayName": "Cloud Pc Snapshot ID",
 			"name": "cloudPcSnapshotId",
 			"type": "string",
 			"default": "",
@@ -7468,7 +7468,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Apple Id",
+			"displayName": "Apple ID",
 			"name": "appleId",
 			"type": "string",
 			"default": "",
@@ -7679,7 +7679,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -9707,7 +9707,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "New Template Id",
+			"displayName": "New Template ID",
 			"name": "newTemplateId",
 			"type": "string",
 			"default": "",
@@ -10221,7 +10221,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Carrier Url",
+			"displayName": "Carrier URL",
 			"name": "carrierUrl",
 			"type": "string",
 			"default": "",
@@ -10541,7 +10541,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 						"Device Management Actions"
 					],
 					"operation": [
-						"Device Management Managed Devices Managed Device Log Collection Requests Device Log Collection Response Create Download Url"
+						"Device Management Managed Devices Managed Device Log Collection Requests Device Log Collection Response Create Download URL"
 					]
 				}
 			}
@@ -10566,7 +10566,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Carrier Url",
+			"displayName": "Carrier URL",
 			"name": "carrierUrl",
 			"type": "string",
 			"default": "",
@@ -11054,7 +11054,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Script Policy Id",
+			"displayName": "Script Policy ID",
 			"name": "scriptPolicyId",
 			"type": "string",
 			"default": "",
@@ -11170,7 +11170,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Remediation Url",
+			"displayName": "Remediation URL",
 			"name": "remediationUrl",
 			"type": "string",
 			"default": "",
@@ -11389,7 +11389,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Pub Sub Connection Id",
+			"displayName": "Pub Sub Connection ID",
 			"name": "pubSubConnectionId",
 			"type": "string",
 			"default": "",
@@ -11475,7 +11475,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Target Service Plan Id",
+			"displayName": "Target Service Plan ID",
 			"name": "targetServicePlanId",
 			"type": "string",
 			"default": "",
@@ -11518,7 +11518,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Cloud Pc Snapshot Id",
+			"displayName": "Cloud Pc Snapshot ID",
 			"name": "cloudPcSnapshotId",
 			"type": "string",
 			"default": "",
@@ -12241,7 +12241,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Managed Device Id",
+			"displayName": "Managed Device ID",
 			"name": "managedDeviceId",
 			"type": "string",
 			"default": "",
@@ -12265,7 +12265,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Payload Id",
+			"displayName": "Payload ID",
 			"name": "payloadId",
 			"type": "string",
 			"default": "",
@@ -12337,7 +12337,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"type": "string",
 			"default": "",
@@ -12465,7 +12465,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 						"Device Management Actions"
 					],
 					"operation": [
-						"Device Management Microsoft Tunnel Server Log Collection Responses Microsoft Tunnel Server Log Collection Response Create Download Url"
+						"Device Management Microsoft Tunnel Server Log Collection Responses Microsoft Tunnel Server Log Collection Response Create Download URL"
 					]
 				}
 			}
@@ -12484,7 +12484,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 						"Device Management Actions"
 					],
 					"operation": [
-						"Device Management Microsoft Tunnel Server Log Collection Responses Microsoft Tunnel Server Log Collection Response Generate Download Url"
+						"Device Management Microsoft Tunnel Server Log Collection Responses Microsoft Tunnel Server Log Collection Response Generate Download URL"
 					]
 				}
 			}
@@ -12790,7 +12790,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 						"Device Management Actions"
 					],
 					"operation": [
-						"Device Management Mobile App Troubleshooting Events Mobile App Troubleshooting Event App Log Collection Requests App Log Collection Request Create Download Url"
+						"Device Management Mobile App Troubleshooting Events Mobile App Troubleshooting Event App Log Collection Requests App Log Collection Request Create Download URL"
 					]
 				}
 			}
@@ -13073,7 +13073,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -13308,7 +13308,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -13543,7 +13543,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -13778,7 +13778,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -14013,7 +14013,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -14128,7 +14128,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "",
@@ -14435,7 +14435,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -14670,7 +14670,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -14905,7 +14905,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -15140,7 +15140,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -15375,7 +15375,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -15610,7 +15610,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -15845,7 +15845,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -16080,7 +16080,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -16315,7 +16315,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -16550,7 +16550,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -16785,7 +16785,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -17020,7 +17020,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -17255,7 +17255,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -17490,7 +17490,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -17725,7 +17725,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -17960,7 +17960,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -18195,7 +18195,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -18430,7 +18430,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -18665,7 +18665,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -18900,7 +18900,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -19135,7 +19135,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -19370,7 +19370,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -19605,7 +19605,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -19840,7 +19840,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -20075,7 +20075,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -20310,7 +20310,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -20545,7 +20545,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -20991,7 +20991,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -21226,7 +21226,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -21461,7 +21461,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -21907,7 +21907,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -22142,7 +22142,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -22377,7 +22377,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -22612,7 +22612,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -22847,7 +22847,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -23082,7 +23082,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -23317,7 +23317,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -23552,7 +23552,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -23787,7 +23787,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -24046,7 +24046,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -24281,7 +24281,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -24516,7 +24516,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -24751,7 +24751,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -24986,7 +24986,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -25221,7 +25221,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -25456,7 +25456,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -25691,7 +25691,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -25926,7 +25926,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -26161,7 +26161,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -26396,7 +26396,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -26631,7 +26631,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -26866,7 +26866,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",
@@ -27256,7 +27256,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 						"Device Management Actions"
 					],
 					"operation": [
-						"Device Management Role Scope Tags Get Role Scope Tags By Id"
+						"Device Management Role Scope Tags Get Role Scope Tags By ID"
 					]
 				}
 			}
@@ -27280,7 +27280,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 						"Device Management Actions"
 					],
 					"operation": [
-						"Device Management Role Scope Tags Get Role Scope Tags By Id"
+						"Device Management Role Scope Tags Get Role Scope Tags By ID"
 					]
 				}
 			}
@@ -27684,7 +27684,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Scope Id",
+			"displayName": "Device Scope ID",
 			"name": "deviceScopeId",
 			"type": "string",
 			"default": "",
@@ -27752,7 +27752,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Scope Id",
+			"displayName": "Device Scope ID",
 			"name": "deviceScopeId",
 			"type": "string",
 			"default": "",
@@ -28028,7 +28028,7 @@ export const deviceManagementActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Cloud Pc Snapshot Id",
+			"displayName": "Cloud Pc Snapshot ID",
 			"name": "cloudPcSnapshotId",
 			"type": "string",
 			"default": "",

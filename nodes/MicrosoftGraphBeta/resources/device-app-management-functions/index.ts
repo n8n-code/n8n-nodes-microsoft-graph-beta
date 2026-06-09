@@ -526,7 +526,7 @@ export const deviceAppManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Device Id",
+			"displayName": "Device ID",
 			"name": "deviceId",
 			"required": true,
 			"description": "Usage: deviceId='{deviceId}'",
@@ -688,7 +688,7 @@ export const deviceAppManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Bundle Id",
+			"displayName": "Bundle ID",
 			"name": "bundleId",
 			"required": true,
 			"description": "Usage: bundleId='{bundleId}'",

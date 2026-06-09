@@ -925,7 +925,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"type": "string",
 			"default": "",
@@ -949,7 +949,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "resourceId",
 			"type": "string",
 			"default": "",
@@ -1040,7 +1040,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"type": "string",
 			"default": "",
@@ -1064,7 +1064,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "resourceId",
 			"type": "string",
 			"default": "",
@@ -1193,7 +1193,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"type": "string",
 			"default": "",
@@ -1217,7 +1217,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "resourceId",
 			"type": "string",
 			"default": "",
@@ -1365,7 +1365,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"type": "string",
 			"default": "",
@@ -1389,7 +1389,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "resourceId",
 			"type": "string",
 			"default": "",
@@ -1499,7 +1499,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"type": "string",
 			"default": "",
@@ -1523,7 +1523,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "resourceId",
 			"type": "string",
 			"default": "",
@@ -1652,7 +1652,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"type": "string",
 			"default": "",
@@ -1676,7 +1676,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "resourceId",
 			"type": "string",
 			"default": "",
@@ -1824,7 +1824,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"type": "string",
 			"default": "",
@@ -1848,7 +1848,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "resourceId",
 			"type": "string",
 			"default": "",
@@ -1996,7 +1996,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"type": "string",
 			"default": "",
@@ -2020,7 +2020,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "resourceId",
 			"type": "string",
 			"default": "",
@@ -2168,7 +2168,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"type": "string",
 			"default": "",
@@ -2192,7 +2192,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "resourceId",
 			"type": "string",
 			"default": "",
@@ -2283,7 +2283,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"type": "string",
 			"default": "",
@@ -2307,7 +2307,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "resourceId",
 			"type": "string",
 			"default": "",
@@ -2436,7 +2436,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"type": "string",
 			"default": "",
@@ -2460,7 +2460,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Resource Id",
+			"displayName": "Resource ID",
 			"name": "resourceId",
 			"type": "string",
 			"default": "",
@@ -2674,7 +2674,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Catalog Id",
+			"displayName": "Catalog ID",
 			"name": "catalogId",
 			"type": "string",
 			"default": "",
@@ -2793,7 +2793,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Catalog Id",
+			"displayName": "Catalog ID",
 			"name": "catalogId",
 			"type": "string",
 			"default": "",
@@ -2855,7 +2855,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Catalog Id",
+			"displayName": "Catalog ID",
 			"name": "catalogId",
 			"type": "string",
 			"default": "",
@@ -2989,7 +2989,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"type": "string",
 			"default": "",
@@ -3104,7 +3104,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",
@@ -3238,7 +3238,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"type": "string",
 			"default": "",
@@ -3353,7 +3353,7 @@ export const identityGovernanceActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "On Behalf Of User Id",
+			"displayName": "On Behalf Of User ID",
 			"name": "onBehalfOfUserId",
 			"type": "string",
 			"default": "",

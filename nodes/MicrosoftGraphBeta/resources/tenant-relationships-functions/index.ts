@@ -27,8 +27,8 @@ export const tenantRelationshipsFunctionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Tenant Relationships Find Tenant Information By Tenant Id",
-					"value": "Tenant Relationships Find Tenant Information By Tenant Id",
+					"name": "Tenant Relationships Find Tenant Information By Tenant ID",
+					"value": "Tenant Relationships Find Tenant Information By Tenant ID",
 					"action": "Invoke function findTenantInformationByTenantId",
 					"description": "Invoke function findTenantInformationByTenantId",
 					"routing": {
@@ -92,13 +92,13 @@ export const tenantRelationshipsFunctionsDescription: INodeProperties[] = [
 						"Tenant Relationships Functions"
 					],
 					"operation": [
-						"Tenant Relationships Find Tenant Information By Tenant Id"
+						"Tenant Relationships Find Tenant Information By Tenant ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Tenant Id",
+			"displayName": "Tenant ID",
 			"name": "tenantId",
 			"required": true,
 			"description": "Usage: tenantId='{tenantId}'",
@@ -110,7 +110,7 @@ export const tenantRelationshipsFunctionsDescription: INodeProperties[] = [
 						"Tenant Relationships Functions"
 					],
 					"operation": [
-						"Tenant Relationships Find Tenant Information By Tenant Id"
+						"Tenant Relationships Find Tenant Information By Tenant ID"
 					]
 				}
 			}

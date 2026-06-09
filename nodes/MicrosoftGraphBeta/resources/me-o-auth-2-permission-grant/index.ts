@@ -15,8 +15,8 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Me List Oauth 2 Permission Grants",
-					"value": "Me List Oauth 2 Permission Grants",
+					"name": "Me List OAuth 2 Permission Grants",
+					"value": "Me List OAuth 2 Permission Grants",
 					"action": "List oauth2PermissionGrants",
 					"description": "Retrieve a list of oAuth2PermissionGrant entities, which represent delegated permissions granted to enable a client application to access an API on behalf of the user.",
 					"routing": {
@@ -27,8 +27,8 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Me Get Oauth 2 Permission Grants",
-					"value": "Me Get Oauth 2 Permission Grants",
+					"name": "Me Get OAuth 2 Permission Grants",
+					"value": "Me Get OAuth 2 Permission Grants",
 					"action": "Get oauth2PermissionGrants from me",
 					"description": "Get oauth2PermissionGrants from me",
 					"routing": {
@@ -55,7 +55,7 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Me O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Me List Oauth 2 Permission Grants"
+						"Me List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -80,7 +80,7 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Me O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Me List Oauth 2 Permission Grants"
+						"Me List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -105,7 +105,7 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Me O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Me List Oauth 2 Permission Grants"
+						"Me List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -130,7 +130,7 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Me O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Me List Oauth 2 Permission Grants"
+						"Me List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -155,7 +155,7 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Me O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Me List Oauth 2 Permission Grants"
+						"Me List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -180,7 +180,7 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Me O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Me List Oauth 2 Permission Grants"
+						"Me List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -205,7 +205,7 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Me O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Me List Oauth 2 Permission Grants"
+						"Me List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -230,7 +230,7 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Me O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Me List Oauth 2 Permission Grants"
+						"Me List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -255,7 +255,7 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Me O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Me List Oauth 2 Permission Grants"
+						"Me List OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -274,7 +274,7 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Me O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Me Get Oauth 2 Permission Grants"
+						"Me Get OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -299,7 +299,7 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Me O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Me Get Oauth 2 Permission Grants"
+						"Me Get OAuth 2 Permission Grants"
 					]
 				}
 			}
@@ -324,7 +324,7 @@ export const meOAuth2PermissionGrantDescription: INodeProperties[] = [
 						"Me O Auth 2 Permission Grant"
 					],
 					"operation": [
-						"Me Get Oauth 2 Permission Grants"
+						"Me Get OAuth 2 Permission Grants"
 					]
 				}
 			}

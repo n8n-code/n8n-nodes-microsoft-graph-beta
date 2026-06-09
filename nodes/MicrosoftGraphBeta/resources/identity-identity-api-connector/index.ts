@@ -9,14 +9,14 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					]
 				}
 			},
 			"options": [
 				{
-					"name": "Identity List Api Connectors",
-					"value": "Identity List Api Connectors",
+					"name": "Identity List API Connectors",
+					"value": "Identity List API Connectors",
 					"action": "List identityApiConnectors",
 					"description": "Read the properties of an identityApiConnector object.",
 					"routing": {
@@ -27,8 +27,8 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Identity Create Api Connectors",
-					"value": "Identity Create Api Connectors",
+					"name": "Identity Create API Connectors",
+					"value": "Identity Create API Connectors",
 					"action": "Create identityApiConnector",
 					"description": "Create a new identityApiConnector object.",
 					"routing": {
@@ -39,8 +39,8 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Identity Delete Api Connectors",
-					"value": "Identity Delete Api Connectors",
+					"name": "Identity Delete API Connectors",
+					"value": "Identity Delete API Connectors",
 					"action": "Delete navigation property apiConnectors for identity",
 					"description": "Delete navigation property apiConnectors for identity",
 					"routing": {
@@ -51,8 +51,8 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Identity Get Api Connectors",
-					"value": "Identity Get Api Connectors",
+					"name": "Identity Get API Connectors",
+					"value": "Identity Get API Connectors",
 					"action": "Get apiConnectors from identity",
 					"description": "Represents entry point for API connectors.",
 					"routing": {
@@ -63,8 +63,8 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Identity Update Api Connectors",
-					"value": "Identity Update Api Connectors",
+					"name": "Identity Update API Connectors",
+					"value": "Identity Update API Connectors",
 					"action": "Update the navigation property apiConnectors in identity",
 					"description": "Update the navigation property apiConnectors in identity",
 					"routing": {
@@ -88,10 +88,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity List Api Connectors"
+						"Identity List API Connectors"
 					]
 				}
 			}
@@ -113,10 +113,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity List Api Connectors"
+						"Identity List API Connectors"
 					]
 				}
 			}
@@ -138,10 +138,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity List Api Connectors"
+						"Identity List API Connectors"
 					]
 				}
 			}
@@ -163,10 +163,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity List Api Connectors"
+						"Identity List API Connectors"
 					]
 				}
 			}
@@ -188,10 +188,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity List Api Connectors"
+						"Identity List API Connectors"
 					]
 				}
 			}
@@ -213,10 +213,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity List Api Connectors"
+						"Identity List API Connectors"
 					]
 				}
 			}
@@ -238,10 +238,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity List Api Connectors"
+						"Identity List API Connectors"
 					]
 				}
 			}
@@ -263,10 +263,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity List Api Connectors"
+						"Identity List API Connectors"
 					]
 				}
 			}
@@ -288,10 +288,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity List Api Connectors"
+						"Identity List API Connectors"
 					]
 				}
 			}
@@ -307,10 +307,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity Create Api Connectors"
+						"Identity Create API Connectors"
 					]
 				}
 			}
@@ -323,10 +323,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity Create Api Connectors"
+						"Identity Create API Connectors"
 					]
 				}
 			}
@@ -342,10 +342,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity Delete Api Connectors"
+						"Identity Delete API Connectors"
 					]
 				}
 			}
@@ -366,10 +366,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity Delete Api Connectors"
+						"Identity Delete API Connectors"
 					]
 				}
 			}
@@ -385,10 +385,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity Get Api Connectors"
+						"Identity Get API Connectors"
 					]
 				}
 			}
@@ -410,10 +410,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity Get Api Connectors"
+						"Identity Get API Connectors"
 					]
 				}
 			}
@@ -435,10 +435,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity Get Api Connectors"
+						"Identity Get API Connectors"
 					]
 				}
 			}
@@ -454,10 +454,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity Update Api Connectors"
+						"Identity Update API Connectors"
 					]
 				}
 			}
@@ -470,10 +470,10 @@ export const identityIdentityApiConnectorDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Identity Identity Api Connector"
+						"Identity Identity API Connector"
 					],
 					"operation": [
-						"Identity Update Api Connectors"
+						"Identity Update API Connectors"
 					]
 				}
 			}

@@ -1515,7 +1515,7 @@ export const onPremisesPublishingProfilesOnPremisesAgentGroupDescription: INodeP
 			}
 		},
 		{
-			"displayName": "Odata Id",
+			"displayName": "Odata ID",
 			"name": "@odata-id",
 			"type": "string",
 			"default": "",
@@ -1582,7 +1582,7 @@ export const onPremisesPublishingProfilesOnPremisesAgentGroupDescription: INodeP
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "%40id",
 			"description": "Delete Uri",
 			"default": "",
@@ -2450,7 +2450,7 @@ export const onPremisesPublishingProfilesOnPremisesAgentGroupDescription: INodeP
 			}
 		},
 		{
-			"displayName": "Odata Id",
+			"displayName": "Odata ID",
 			"name": "@odata-id",
 			"type": "string",
 			"default": "",
@@ -2517,7 +2517,7 @@ export const onPremisesPublishingProfilesOnPremisesAgentGroupDescription: INodeP
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "%40id",
 			"description": "Delete Uri",
 			"default": "",

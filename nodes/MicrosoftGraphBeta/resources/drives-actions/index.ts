@@ -1251,8 +1251,8 @@ export const drivesActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Drives Drive Items Drive Item Workbook Functions Db",
-					"value": "Drives Drive Items Drive Item Workbook Functions Db",
+					"name": "Drives Drive Items Drive Item Workbook Functions DB",
+					"value": "Drives Drive Items Drive Item Workbook Functions DB",
 					"action": "Invoke action db",
 					"description": "Invoke action db",
 					"routing": {
@@ -5779,7 +5779,7 @@ export const drivesActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Sensitivity Label Id",
+			"displayName": "Sensitivity Label ID",
 			"name": "sensitivityLabelId",
 			"type": "string",
 			"default": "",
@@ -13274,7 +13274,7 @@ export const drivesActionsDescription: INodeProperties[] = [
 						"Drives Actions"
 					],
 					"operation": [
-						"Drives Drive Items Drive Item Workbook Functions Db"
+						"Drives Drive Items Drive Item Workbook Functions DB"
 					]
 				}
 			}
@@ -13298,7 +13298,7 @@ export const drivesActionsDescription: INodeProperties[] = [
 						"Drives Actions"
 					],
 					"operation": [
-						"Drives Drive Items Drive Item Workbook Functions Db"
+						"Drives Drive Items Drive Item Workbook Functions DB"
 					]
 				}
 			}
@@ -13322,7 +13322,7 @@ export const drivesActionsDescription: INodeProperties[] = [
 						"Drives Actions"
 					],
 					"operation": [
-						"Drives Drive Items Drive Item Workbook Functions Db"
+						"Drives Drive Items Drive Item Workbook Functions DB"
 					]
 				}
 			}
@@ -13346,7 +13346,7 @@ export const drivesActionsDescription: INodeProperties[] = [
 						"Drives Actions"
 					],
 					"operation": [
-						"Drives Drive Items Drive Item Workbook Functions Db"
+						"Drives Drive Items Drive Item Workbook Functions DB"
 					]
 				}
 			}
@@ -13370,7 +13370,7 @@ export const drivesActionsDescription: INodeProperties[] = [
 						"Drives Actions"
 					],
 					"operation": [
-						"Drives Drive Items Drive Item Workbook Functions Db"
+						"Drives Drive Items Drive Item Workbook Functions DB"
 					]
 				}
 			}
@@ -13394,7 +13394,7 @@ export const drivesActionsDescription: INodeProperties[] = [
 						"Drives Actions"
 					],
 					"operation": [
-						"Drives Drive Items Drive Item Workbook Functions Db"
+						"Drives Drive Items Drive Item Workbook Functions DB"
 					]
 				}
 			}
@@ -36771,7 +36771,7 @@ export const drivesActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Content Type Id",
+			"displayName": "Content Type ID",
 			"name": "contentTypeId",
 			"type": "string",
 			"default": "",

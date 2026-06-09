@@ -9,14 +9,14 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					]
 				}
 			},
 			"options": [
 				{
-					"name": "Threat Submission List Url Threats",
-					"value": "Threat Submission List Url Threats",
+					"name": "Threat Submission List URL Threats",
+					"value": "Threat Submission List URL Threats",
 					"action": "List urlThreatSubmissions",
 					"description": "Get a list of the urlThreatSubmission objects and their properties.",
 					"routing": {
@@ -27,8 +27,8 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 					}
 				},
 				{
-					"name": "Threat Submission Create Url Threats",
-					"value": "Threat Submission Create Url Threats",
+					"name": "Threat Submission Create URL Threats",
+					"value": "Threat Submission Create URL Threats",
 					"action": "Create urlThreatSubmission",
 					"description": "Create a new urlThreatSubmission object.",
 					"routing": {
@@ -39,8 +39,8 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 					}
 				},
 				{
-					"name": "Threat Submission Delete Url Threats",
-					"value": "Threat Submission Delete Url Threats",
+					"name": "Threat Submission Delete URL Threats",
+					"value": "Threat Submission Delete URL Threats",
 					"action": "Delete navigation property urlThreats for threatSubmission",
 					"description": "Delete navigation property urlThreats for threatSubmission",
 					"routing": {
@@ -51,8 +51,8 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 					}
 				},
 				{
-					"name": "Threat Submission Get Url Threats",
-					"value": "Threat Submission Get Url Threats",
+					"name": "Threat Submission Get URL Threats",
+					"value": "Threat Submission Get URL Threats",
 					"action": "Get urlThreats from threatSubmission",
 					"description": "Get urlThreats from threatSubmission",
 					"routing": {
@@ -63,8 +63,8 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 					}
 				},
 				{
-					"name": "Threat Submission Update Url Threats",
-					"value": "Threat Submission Update Url Threats",
+					"name": "Threat Submission Update URL Threats",
+					"value": "Threat Submission Update URL Threats",
 					"action": "Update the navigation property urlThreats in threatSubmission",
 					"description": "Update the navigation property urlThreats in threatSubmission",
 					"routing": {
@@ -88,10 +88,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission List Url Threats"
+						"Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -113,10 +113,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission List Url Threats"
+						"Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -138,10 +138,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission List Url Threats"
+						"Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -163,10 +163,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission List Url Threats"
+						"Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -188,10 +188,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission List Url Threats"
+						"Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -213,10 +213,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission List Url Threats"
+						"Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -238,10 +238,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission List Url Threats"
+						"Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -263,10 +263,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission List Url Threats"
+						"Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -288,10 +288,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission List Url Threats"
+						"Threat Submission List URL Threats"
 					]
 				}
 			}
@@ -307,10 +307,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission Create Url Threats"
+						"Threat Submission Create URL Threats"
 					]
 				}
 			}
@@ -323,10 +323,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission Create Url Threats"
+						"Threat Submission Create URL Threats"
 					]
 				}
 			}
@@ -342,10 +342,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission Delete Url Threats"
+						"Threat Submission Delete URL Threats"
 					]
 				}
 			}
@@ -366,10 +366,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission Delete Url Threats"
+						"Threat Submission Delete URL Threats"
 					]
 				}
 			}
@@ -385,10 +385,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission Get Url Threats"
+						"Threat Submission Get URL Threats"
 					]
 				}
 			}
@@ -410,10 +410,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission Get Url Threats"
+						"Threat Submission Get URL Threats"
 					]
 				}
 			}
@@ -435,10 +435,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission Get Url Threats"
+						"Threat Submission Get URL Threats"
 					]
 				}
 			}
@@ -454,10 +454,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission Update Url Threats"
+						"Threat Submission Update URL Threats"
 					]
 				}
 			}
@@ -470,10 +470,10 @@ export const threatSubmissionUrlThreatSubmissionDescription: INodeProperties[] =
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Threat Submission Url Threat Submission"
+						"Threat Submission URL Threat Submission"
 					],
 					"operation": [
-						"Threat Submission Update Url Threats"
+						"Threat Submission Update URL Threats"
 					]
 				}
 			}

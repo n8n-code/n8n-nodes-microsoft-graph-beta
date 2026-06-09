@@ -423,7 +423,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",
@@ -692,7 +692,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",
@@ -961,7 +961,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",
@@ -1230,7 +1230,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",
@@ -1449,7 +1449,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",
@@ -1474,7 +1474,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Scope Id",
+			"displayName": "App Scope ID",
 			"name": "appScopeId",
 			"description": "Usage: appScopeId='@appScopeId'",
 			"default": "",
@@ -1499,7 +1499,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"description": "Usage: principalId='@principalId'",
 			"default": "",
@@ -1524,7 +1524,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Role Definition Id",
+			"displayName": "Role Definition ID",
 			"name": "roleDefinitionId",
 			"description": "Usage: roleDefinitionId='@roleDefinitionId'",
 			"default": "",
@@ -1743,7 +1743,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",
@@ -1768,7 +1768,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Scope Id",
+			"displayName": "App Scope ID",
 			"name": "appScopeId",
 			"description": "Usage: appScopeId='@appScopeId'",
 			"default": "",
@@ -1793,7 +1793,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"description": "Usage: principalId='@principalId'",
 			"default": "",
@@ -1818,7 +1818,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Role Definition Id",
+			"displayName": "Role Definition ID",
 			"name": "roleDefinitionId",
 			"description": "Usage: roleDefinitionId='@roleDefinitionId'",
 			"default": "",
@@ -2991,7 +2991,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",
@@ -3260,7 +3260,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",
@@ -4153,7 +4153,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",
@@ -4178,7 +4178,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Scope Id",
+			"displayName": "App Scope ID",
 			"name": "appScopeId",
 			"description": "Usage: appScopeId='@appScopeId'",
 			"default": "",
@@ -4203,7 +4203,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"description": "Usage: principalId='@principalId'",
 			"default": "",
@@ -4228,7 +4228,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Role Definition Id",
+			"displayName": "Role Definition ID",
 			"name": "roleDefinitionId",
 			"description": "Usage: roleDefinitionId='@roleDefinitionId'",
 			"default": "",
@@ -4447,7 +4447,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",
@@ -4472,7 +4472,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "App Scope Id",
+			"displayName": "App Scope ID",
 			"name": "appScopeId",
 			"description": "Usage: appScopeId='@appScopeId'",
 			"default": "",
@@ -4497,7 +4497,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Principal Id",
+			"displayName": "Principal ID",
 			"name": "principalId",
 			"description": "Usage: principalId='@principalId'",
 			"default": "",
@@ -4522,7 +4522,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Role Definition Id",
+			"displayName": "Role Definition ID",
 			"name": "roleDefinitionId",
 			"description": "Usage: roleDefinitionId='@roleDefinitionId'",
 			"default": "",
@@ -5695,7 +5695,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",
@@ -5964,7 +5964,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",
@@ -6907,7 +6907,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",
@@ -7176,7 +7176,7 @@ export const roleManagementFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directory Scope Id",
+			"displayName": "Directory Scope ID",
 			"name": "directoryScopeId",
 			"description": "Usage: directoryScopeId='@directoryScopeId'",
 			"default": "",

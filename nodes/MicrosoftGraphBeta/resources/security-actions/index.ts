@@ -375,8 +375,8 @@ export const securityActionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Security Ti Indicators Delete Ti Indicators By External Id",
-					"value": "Security Ti Indicators Delete Ti Indicators By External Id",
+					"name": "Security Ti Indicators Delete Ti Indicators By External ID",
+					"value": "Security Ti Indicators Delete Ti Indicators By External ID",
 					"action": "Invoke action deleteTiIndicatorsByExternalId",
 					"description": "Delete multiple threat intelligence (TI) indicators in one request instead of multiple requests, when the request contains external IDs instead of IDs.",
 					"routing": {
@@ -1031,7 +1031,7 @@ export const securityActionsDescription: INodeProperties[] = [
 					"value": "text"
 				},
 				{
-					"name": "Pdf Replacement",
+					"name": "PDF Replacement",
 					"value": "pdfReplacement"
 				},
 				{
@@ -1305,7 +1305,7 @@ export const securityActionsDescription: INodeProperties[] = [
 					"value": "text"
 				},
 				{
-					"name": "Pdf Replacement",
+					"name": "PDF Replacement",
 					"value": "pdfReplacement"
 				},
 				{
@@ -1902,7 +1902,7 @@ export const securityActionsDescription: INodeProperties[] = [
 						"Security Actions"
 					],
 					"operation": [
-						"Security Ti Indicators Delete Ti Indicators By External Id"
+						"Security Ti Indicators Delete Ti Indicators By External ID"
 					]
 				}
 			}
@@ -1926,7 +1926,7 @@ export const securityActionsDescription: INodeProperties[] = [
 						"Security Actions"
 					],
 					"operation": [
-						"Security Ti Indicators Delete Ti Indicators By External Id"
+						"Security Ti Indicators Delete Ti Indicators By External ID"
 					]
 				}
 			}

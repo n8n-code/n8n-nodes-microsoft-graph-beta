@@ -3061,7 +3061,7 @@ export const reportsFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"required": true,
 			"description": "Usage: groupId='{groupId}'",
@@ -6065,7 +6065,7 @@ export const reportsFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Printer Id",
+			"displayName": "Printer ID",
 			"name": "printerId",
 			"required": true,
 			"description": "Usage: printerId='{printerId}'",
@@ -8251,7 +8251,7 @@ export const reportsFunctionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "User Id",
+			"displayName": "User ID",
 			"name": "userId",
 			"required": true,
 			"description": "Usage: userId='{userId}'",

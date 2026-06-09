@@ -399,8 +399,8 @@ export const directoryObjectOrgContactDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact Db 00",
-					"value": "Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact Db 00",
+					"name": "Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact DB 00",
+					"value": "Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact DB 00",
 					"action": "Get the items of type microsoft.graph.orgContact in the microsoft.graph.directoryObject collection",
 					"description": "Get the items of type microsoft.graph.orgContact in the microsoft.graph.directoryObject collection",
 					"routing": {
@@ -6031,7 +6031,7 @@ export const directoryObjectOrgContactDescription: INodeProperties[] = [
 						"Directory Object Org Contact"
 					],
 					"operation": [
-						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact Db 00"
+						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact DB 00"
 					]
 				}
 			}
@@ -6055,7 +6055,7 @@ export const directoryObjectOrgContactDescription: INodeProperties[] = [
 						"Directory Object Org Contact"
 					],
 					"operation": [
-						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact Db 00"
+						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact DB 00"
 					]
 				}
 			}
@@ -6080,7 +6080,7 @@ export const directoryObjectOrgContactDescription: INodeProperties[] = [
 						"Directory Object Org Contact"
 					],
 					"operation": [
-						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact Db 00"
+						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact DB 00"
 					]
 				}
 			}
@@ -6105,7 +6105,7 @@ export const directoryObjectOrgContactDescription: INodeProperties[] = [
 						"Directory Object Org Contact"
 					],
 					"operation": [
-						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact Db 00"
+						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact DB 00"
 					]
 				}
 			}
@@ -6130,7 +6130,7 @@ export const directoryObjectOrgContactDescription: INodeProperties[] = [
 						"Directory Object Org Contact"
 					],
 					"operation": [
-						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact Db 00"
+						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact DB 00"
 					]
 				}
 			}
@@ -6155,7 +6155,7 @@ export const directoryObjectOrgContactDescription: INodeProperties[] = [
 						"Directory Object Org Contact"
 					],
 					"operation": [
-						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact Db 00"
+						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact DB 00"
 					]
 				}
 			}
@@ -6180,7 +6180,7 @@ export const directoryObjectOrgContactDescription: INodeProperties[] = [
 						"Directory Object Org Contact"
 					],
 					"operation": [
-						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact Db 00"
+						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact DB 00"
 					]
 				}
 			}
@@ -6205,7 +6205,7 @@ export const directoryObjectOrgContactDescription: INodeProperties[] = [
 						"Directory Object Org Contact"
 					],
 					"operation": [
-						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact Db 00"
+						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact DB 00"
 					]
 				}
 			}
@@ -6230,7 +6230,7 @@ export const directoryObjectOrgContactDescription: INodeProperties[] = [
 						"Directory Object Org Contact"
 					],
 					"operation": [
-						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact Db 00"
+						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact DB 00"
 					]
 				}
 			}
@@ -6255,7 +6255,7 @@ export const directoryObjectOrgContactDescription: INodeProperties[] = [
 						"Directory Object Org Contact"
 					],
 					"operation": [
-						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact Db 00"
+						"Get Microsoft Graph Directory Object Items As Microsoft Graph Org Contact DB 00"
 					]
 				}
 			}

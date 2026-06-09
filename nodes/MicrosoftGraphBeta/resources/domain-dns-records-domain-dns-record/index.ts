@@ -9,14 +9,14 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					]
 				}
 			},
 			"options": [
 				{
-					"name": "Domain Dns Records Domain Dns Record List Domain Dns Record",
-					"value": "Domain Dns Records Domain Dns Record List Domain Dns Record",
+					"name": "Domain DNS Records Domain DNS Record List Domain DNS Record",
+					"value": "Domain DNS Records Domain DNS Record List Domain DNS Record",
 					"action": "Get entities from domainDnsRecords",
 					"description": "Get entities from domainDnsRecords",
 					"routing": {
@@ -27,8 +27,8 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Domain Dns Records Domain Dns Record Create Domain Dns Record",
-					"value": "Domain Dns Records Domain Dns Record Create Domain Dns Record",
+					"name": "Domain DNS Records Domain DNS Record Create Domain DNS Record",
+					"value": "Domain DNS Records Domain DNS Record Create Domain DNS Record",
 					"action": "Add new entity to domainDnsRecords",
 					"description": "Add new entity to domainDnsRecords",
 					"routing": {
@@ -39,8 +39,8 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Domain Dns Records Domain Dns Record Delete Domain Dns Record",
-					"value": "Domain Dns Records Domain Dns Record Delete Domain Dns Record",
+					"name": "Domain DNS Records Domain DNS Record Delete Domain DNS Record",
+					"value": "Domain DNS Records Domain DNS Record Delete Domain DNS Record",
 					"action": "Delete entity from domainDnsRecords",
 					"description": "Delete entity from domainDnsRecords",
 					"routing": {
@@ -51,8 +51,8 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Domain Dns Records Domain Dns Record Get Domain Dns Record",
-					"value": "Domain Dns Records Domain Dns Record Get Domain Dns Record",
+					"name": "Domain DNS Records Domain DNS Record Get Domain DNS Record",
+					"value": "Domain DNS Records Domain DNS Record Get Domain DNS Record",
 					"action": "Get entity from domainDnsRecords by key",
 					"description": "Get entity from domainDnsRecords by key",
 					"routing": {
@@ -63,8 +63,8 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Domain Dns Records Domain Dns Record Update Domain Dns Record",
-					"value": "Domain Dns Records Domain Dns Record Update Domain Dns Record",
+					"name": "Domain DNS Records Domain DNS Record Update Domain DNS Record",
+					"value": "Domain DNS Records Domain DNS Record Update Domain DNS Record",
 					"action": "Update entity in domainDnsRecords",
 					"description": "Update entity in domainDnsRecords",
 					"routing": {
@@ -88,10 +88,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record List Domain Dns Record"
+						"Domain DNS Records Domain DNS Record List Domain DNS Record"
 					]
 				}
 			}
@@ -113,10 +113,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record List Domain Dns Record"
+						"Domain DNS Records Domain DNS Record List Domain DNS Record"
 					]
 				}
 			}
@@ -138,10 +138,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record List Domain Dns Record"
+						"Domain DNS Records Domain DNS Record List Domain DNS Record"
 					]
 				}
 			}
@@ -163,10 +163,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record List Domain Dns Record"
+						"Domain DNS Records Domain DNS Record List Domain DNS Record"
 					]
 				}
 			}
@@ -188,10 +188,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record List Domain Dns Record"
+						"Domain DNS Records Domain DNS Record List Domain DNS Record"
 					]
 				}
 			}
@@ -213,10 +213,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record List Domain Dns Record"
+						"Domain DNS Records Domain DNS Record List Domain DNS Record"
 					]
 				}
 			}
@@ -238,10 +238,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record List Domain Dns Record"
+						"Domain DNS Records Domain DNS Record List Domain DNS Record"
 					]
 				}
 			}
@@ -263,10 +263,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record List Domain Dns Record"
+						"Domain DNS Records Domain DNS Record List Domain DNS Record"
 					]
 				}
 			}
@@ -288,10 +288,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record List Domain Dns Record"
+						"Domain DNS Records Domain DNS Record List Domain DNS Record"
 					]
 				}
 			}
@@ -307,10 +307,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record Create Domain Dns Record"
+						"Domain DNS Records Domain DNS Record Create Domain DNS Record"
 					]
 				}
 			}
@@ -323,10 +323,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record Create Domain Dns Record"
+						"Domain DNS Records Domain DNS Record Create Domain DNS Record"
 					]
 				}
 			}
@@ -342,10 +342,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record Delete Domain Dns Record"
+						"Domain DNS Records Domain DNS Record Delete Domain DNS Record"
 					]
 				}
 			}
@@ -366,10 +366,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record Delete Domain Dns Record"
+						"Domain DNS Records Domain DNS Record Delete Domain DNS Record"
 					]
 				}
 			}
@@ -385,10 +385,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record Get Domain Dns Record"
+						"Domain DNS Records Domain DNS Record Get Domain DNS Record"
 					]
 				}
 			}
@@ -410,10 +410,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record Get Domain Dns Record"
+						"Domain DNS Records Domain DNS Record Get Domain DNS Record"
 					]
 				}
 			}
@@ -435,10 +435,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record Get Domain Dns Record"
+						"Domain DNS Records Domain DNS Record Get Domain DNS Record"
 					]
 				}
 			}
@@ -454,10 +454,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record Update Domain Dns Record"
+						"Domain DNS Records Domain DNS Record Update Domain DNS Record"
 					]
 				}
 			}
@@ -470,10 +470,10 @@ export const domainDnsRecordsDomainDnsRecordDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Domain Dns Records Domain Dns Record"
+						"Domain DNS Records Domain DNS Record"
 					],
 					"operation": [
-						"Domain Dns Records Domain Dns Record Update Domain Dns Record"
+						"Domain DNS Records Domain DNS Record Update Domain DNS Record"
 					]
 				}
 			}

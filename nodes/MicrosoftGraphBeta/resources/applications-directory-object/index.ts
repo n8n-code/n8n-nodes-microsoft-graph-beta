@@ -602,7 +602,7 @@ export const applicationsDirectoryObjectDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Odata Id",
+			"displayName": "Odata ID",
 			"name": "@odata-id",
 			"type": "string",
 			"default": "",
@@ -669,7 +669,7 @@ export const applicationsDirectoryObjectDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "%40id",
 			"description": "Delete Uri",
 			"default": "",

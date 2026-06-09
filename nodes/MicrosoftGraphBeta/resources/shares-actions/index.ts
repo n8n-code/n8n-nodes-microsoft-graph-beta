@@ -224,7 +224,7 @@ export const sharesActionsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Content Type Id",
+			"displayName": "Content Type ID",
 			"name": "contentTypeId",
 			"type": "string",
 			"default": "",

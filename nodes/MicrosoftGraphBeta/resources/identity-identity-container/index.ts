@@ -155,7 +155,7 @@ export const identityIdentityContainerDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Connectors",
+			"displayName": "API Connectors",
 			"name": "apiConnectors",
 			"type": "json",
 			"default": "[\n  {\n    \"authenticationConfiguration\": {}\n  }\n]",

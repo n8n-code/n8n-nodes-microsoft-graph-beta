@@ -27,8 +27,8 @@ export const mobileAppMobileLobAppDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Microsoft Graph Mobile App Item As Microsoft Graph Mobile Lob App 0 Db 8",
-					"value": "Get Microsoft Graph Mobile App Item As Microsoft Graph Mobile Lob App 0 Db 8",
+					"name": "Get Microsoft Graph Mobile App Item As Microsoft Graph Mobile Lob App 0 DB 8",
+					"value": "Get Microsoft Graph Mobile App Item As Microsoft Graph Mobile Lob App 0 DB 8",
 					"action": "Get the item of type microsoft.graph.mobileApp as microsoft.graph.mobileLobApp",
 					"description": "Get the item of type microsoft.graph.mobileApp as microsoft.graph.mobileLobApp",
 					"routing": {
@@ -274,7 +274,7 @@ export const mobileAppMobileLobAppDescription: INodeProperties[] = [
 						"Mobile App Mobile Lob App"
 					],
 					"operation": [
-						"Get Microsoft Graph Mobile App Item As Microsoft Graph Mobile Lob App 0 Db 8"
+						"Get Microsoft Graph Mobile App Item As Microsoft Graph Mobile Lob App 0 DB 8"
 					]
 				}
 			}
@@ -299,7 +299,7 @@ export const mobileAppMobileLobAppDescription: INodeProperties[] = [
 						"Mobile App Mobile Lob App"
 					],
 					"operation": [
-						"Get Microsoft Graph Mobile App Item As Microsoft Graph Mobile Lob App 0 Db 8"
+						"Get Microsoft Graph Mobile App Item As Microsoft Graph Mobile Lob App 0 DB 8"
 					]
 				}
 			}
@@ -324,7 +324,7 @@ export const mobileAppMobileLobAppDescription: INodeProperties[] = [
 						"Mobile App Mobile Lob App"
 					],
 					"operation": [
-						"Get Microsoft Graph Mobile App Item As Microsoft Graph Mobile Lob App 0 Db 8"
+						"Get Microsoft Graph Mobile App Item As Microsoft Graph Mobile Lob App 0 DB 8"
 					]
 				}
 			}

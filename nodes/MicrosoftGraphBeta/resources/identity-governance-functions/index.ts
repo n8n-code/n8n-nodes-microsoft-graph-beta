@@ -231,8 +231,8 @@ export const identityGovernanceFunctionsDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package Id Access Package Id Incompatible Access Package Id Incompatible Access Package Id",
-					"value": "GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package Id Access Package Id Incompatible Access Package Id Incompatible Access Package Id",
+					"name": "GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package ID Access Package ID Incompatible Access Package ID Incompatible Access Package ID",
+					"value": "GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package ID Access Package ID Incompatible Access Package ID Incompatible Access Package ID",
 					"action": "Invoke function additionalAccess",
 					"description": "Invoke function additionalAccess",
 					"routing": {
@@ -4479,13 +4479,13 @@ export const identityGovernanceFunctionsDescription: INodeProperties[] = [
 						"Identity Governance Functions"
 					],
 					"operation": [
-						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package Id Access Package Id Incompatible Access Package Id Incompatible Access Package Id"
+						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package ID Access Package ID Incompatible Access Package ID Incompatible Access Package ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Access Package Id",
+			"displayName": "Access Package ID",
 			"name": "accessPackageId",
 			"required": true,
 			"description": "Usage: accessPackageId='{accessPackageId}'",
@@ -4497,13 +4497,13 @@ export const identityGovernanceFunctionsDescription: INodeProperties[] = [
 						"Identity Governance Functions"
 					],
 					"operation": [
-						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package Id Access Package Id Incompatible Access Package Id Incompatible Access Package Id"
+						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package ID Access Package ID Incompatible Access Package ID Incompatible Access Package ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Incompatible Access Package Id",
+			"displayName": "Incompatible Access Package ID",
 			"name": "incompatibleAccessPackageId",
 			"required": true,
 			"description": "Usage: incompatibleAccessPackageId='{incompatibleAccessPackageId}'",
@@ -4515,7 +4515,7 @@ export const identityGovernanceFunctionsDescription: INodeProperties[] = [
 						"Identity Governance Functions"
 					],
 					"operation": [
-						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package Id Access Package Id Incompatible Access Package Id Incompatible Access Package Id"
+						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package ID Access Package ID Incompatible Access Package ID Incompatible Access Package ID"
 					]
 				}
 			}
@@ -4540,7 +4540,7 @@ export const identityGovernanceFunctionsDescription: INodeProperties[] = [
 						"Identity Governance Functions"
 					],
 					"operation": [
-						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package Id Access Package Id Incompatible Access Package Id Incompatible Access Package Id"
+						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package ID Access Package ID Incompatible Access Package ID Incompatible Access Package ID"
 					]
 				}
 			}
@@ -4565,7 +4565,7 @@ export const identityGovernanceFunctionsDescription: INodeProperties[] = [
 						"Identity Governance Functions"
 					],
 					"operation": [
-						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package Id Access Package Id Incompatible Access Package Id Incompatible Access Package Id"
+						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package ID Access Package ID Incompatible Access Package ID Incompatible Access Package ID"
 					]
 				}
 			}
@@ -4590,7 +4590,7 @@ export const identityGovernanceFunctionsDescription: INodeProperties[] = [
 						"Identity Governance Functions"
 					],
 					"operation": [
-						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package Id Access Package Id Incompatible Access Package Id Incompatible Access Package Id"
+						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package ID Access Package ID Incompatible Access Package ID Incompatible Access Package ID"
 					]
 				}
 			}
@@ -4615,7 +4615,7 @@ export const identityGovernanceFunctionsDescription: INodeProperties[] = [
 						"Identity Governance Functions"
 					],
 					"operation": [
-						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package Id Access Package Id Incompatible Access Package Id Incompatible Access Package Id"
+						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package ID Access Package ID Incompatible Access Package ID Incompatible Access Package ID"
 					]
 				}
 			}
@@ -4640,7 +4640,7 @@ export const identityGovernanceFunctionsDescription: INodeProperties[] = [
 						"Identity Governance Functions"
 					],
 					"operation": [
-						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package Id Access Package Id Incompatible Access Package Id Incompatible Access Package Id"
+						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package ID Access Package ID Incompatible Access Package ID Incompatible Access Package ID"
 					]
 				}
 			}
@@ -4665,7 +4665,7 @@ export const identityGovernanceFunctionsDescription: INodeProperties[] = [
 						"Identity Governance Functions"
 					],
 					"operation": [
-						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package Id Access Package Id Incompatible Access Package Id Incompatible Access Package Id"
+						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package ID Access Package ID Incompatible Access Package ID Incompatible Access Package ID"
 					]
 				}
 			}
@@ -4690,7 +4690,7 @@ export const identityGovernanceFunctionsDescription: INodeProperties[] = [
 						"Identity Governance Functions"
 					],
 					"operation": [
-						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package Id Access Package Id Incompatible Access Package Id Incompatible Access Package Id"
+						"GET Identity Governance Entitlement Management Access Package Assignments Microsoft Graph Additional Access Access Package ID Access Package ID Incompatible Access Package ID Incompatible Access Package ID"
 					]
 				}
 			}
